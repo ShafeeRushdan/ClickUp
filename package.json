@@ -1,0 +1,22 @@
+{
+  "name": "clickup2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShafeeRushdan/ClickUp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShafeeRushdan/ClickUp/issues"
+  },
+  "homepage": "https://github.com/ShafeeRushdan/ClickUp#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

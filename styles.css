@@ -1,4 +1,255 @@
-h1.title1 {
+div.logosmall {
+    /* Rectangle 32 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 50px;
+top: 74px;
+
+background: #9C69E2;
+border-radius: 20px;
+
+}
+div.logobig {
+/* Rectangle 33 */
+
+position: absolute;
+width: 20px;
+height: 35px;
+left: 79px;
+top: 59px;
+
+background: #F063B8;
+border-radius: 20px;
+
+
+}
+
+
+div.image1 {
+   /* image1 1 */
+
+position: absolute;
+width: 885px;
+height: 468px;
+left: 603px;
+top: 333px;
+background-image: url("graphlady.png");
+}
+div.background {
+
+
+/* Rectangle 34 */
+
+position: absolute;
+width: 1117px;
+height: 560px;
+left: 240px;
+top: 903.18px;
+
+background: rgba(240, 99, 184, 0.15);
+border-radius: 50px;
+
+}
+div.searchbackground {
+    /* Rectangle 39 */
+
+position: absolute;
+width: 442px;
+height: 358px;
+left: 328.29px;
+top: 1873px;
+
+/* 5 */
+background: #68C9BA;
+opacity: 0.1;
+border-radius: 50px;
+
+}
+div.hoursbackground {
+ 
+/* Rectangle 39 */
+
+position: absolute;
+width: 442px;
+height: 358px;
+left: 915.28px;
+top: 1873px;
+
+/* 3 */
+background: #9C69E2;
+opacity: 0.1;
+border-radius: 20px;
+
+
+}
+div.printbackground {
+    /* Rectangle 39 */
+
+position: absolute;
+width: 442px;
+height: 358px;
+left: 328.29px;
+top: 2281px;
+
+/* 4 */
+background: #F063B8;
+opacity: 0.1;
+border-radius: 50px;
+
+}
+div.securitybackground {
+    /* Rectangle 39 */
+
+position: absolute;
+width: 442px;
+height: 358px;
+left: 915.28px;
+top: 2281px;
+
+/* Blue 2 */
+background: #2D9CDB;
+opacity: 0.1;
+border-radius: 20px;
+
+}
+h1.about {
+    /* About */
+
+position: absolute;
+width: 53px;
+height: 30px;
+left: 410px;
+top: 62px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+/* 2 */
+color: #212353;
+
+
+}
+h1.help {
+    /* Help */
+
+position: absolute;
+width: 35px;
+height: 26px;
+left: 503px;
+top: 64px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+/* 1 */
+color: #4B5D68;
+
+
+}
+h1.features {
+    /* Features */
+
+position: absolute;
+width: 63px;
+height: 26px;
+left: 578px;
+top: 64px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+/* 1 */
+color: #4B5D68;
+
+
+}
+h1.signup {
+    /* Signup */
+
+position: absolute;
+width: 51px;
+height: 26px;
+left: 681px;
+top: 64px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+/* 1 */
+color: #4B5D68;
+
+
+}
+h1.requestdemo {
+    /* Request Demo */
+
+position: absolute;
+width: 112px;
+height: 26px;
+left: 1179px;
+top: 64px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+/* 2 */
+color: #212353;
+
+
+}
+div.rdbox {
+    /* Rectangle 26 */
+
+position: absolute;
+width: 210px;
+height: 60px;
+left: 1150px;
+top: 47px;
+
+background: #FFFFFF;
+box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+border-radius: 50px;
+
+}
+div.arrow {
+    /* Vector 74 */
+
+position: absolute;
+width: 20px;
+height: 0px;
+left: 1311px;
+top: 77px;
+
+border: 2px solid #9C69E2;
+box-sizing: border-box;
+
+}
+h1.card1__title {
     
    
     position: absolute;
@@ -161,7 +412,7 @@ color: #212353;
 
 
 }
-h1.content1 {
+h1.card1__content {
 /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
 
 position: absolute;
