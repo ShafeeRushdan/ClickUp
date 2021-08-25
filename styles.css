@@ -1,0 +1,63 @@
+h1.title {
+    
+   
+    position: relative;
+    width: 380px;
+    height: 120px;
+    left: 50px;
+    top: 170px;
+
+
+    font-family: Helvetica;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 40%;
+    color: #222453;    
+}
+
+h1.content {
+/* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
+
+position: absolute;
+width: 380px;
+height: 120px;
+left: 50px;
+top: 471px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+/* 1 */
+color: #4B5D68;
+
+   
+}
+
+img.graphlady {
+/* image1 1 */
+
+width: 100%;
+height: 468px;
+background-image: url('graphlady.png');
+background-repeat: no-repeat;
+background-size: contain;
+
+transform: scaleX(-1);
+
+
+
+
+
+}
+
+
+
+
