@@ -25,8 +25,34 @@ border-radius: 20px;
 
 
 }
+div.pbox { 
+/* Rectangle 35 */
 
+position: absolute;
+width: 1118px;
+height: 709px;
+left: 242px;
+top: 2789px;
 
+/* 4 */
+background: #F063B8;
+border-radius: 50px;
+
+}
+div.line {
+    /* Rectangle 41 */
+
+position: absolute;
+width: 1600px;
+height: 2px;
+left: 0px;
+top: 3648px;
+
+/* 3 */
+background: #9C69E2;
+opacity: 0.2;
+
+}
 div.image1 {
    /* image1 1 */
 
@@ -126,6 +152,102 @@ opacity: 0.1;
 border-radius: 20px;
 
 }
+div.lmbtn {
+    /* Rectangle 26 */
+
+position: absolute;
+width: 170px;
+height: 60px;
+left: 947px;
+top: 3771px;
+
+/* 4 */
+background: #F063B8;
+border-radius: 50px;
+
+}
+div.rdb {
+    /* Rectangle 26 */
+
+position: absolute;
+width: 210px;
+height: 60px;
+left: 1147px;
+top: 3771px;
+
+background: #FFFFFF;
+box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+border-radius: 50px;
+
+}
+div.sp {
+    /* Rectangle 32 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 240px;
+top: 4016px;
+
+background: #9C69E2;
+border-radius: 20px;
+
+}
+div.spp {
+    /* Rectangle 33 */
+
+position: absolute;
+width: 20px;
+height: 35px;
+left: 269px;
+top: 4001px;
+
+background: #F063B8;
+border-radius: 20px;
+
+}
+div.wd {
+    /* Ellipse 47 */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 1147px;
+top: 4071px;
+
+/* 2 */
+background: #212353;
+opacity: 0.1;
+
+}
+div.wwd {
+    /* Ellipse 47 */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 1211px;
+top: 4071px;
+
+/* 2 */
+background: #212353;
+opacity: 0.1;
+
+}
+div.wwwd {
+    /* Ellipse 47 */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 1275px;
+top: 4071px;
+
+/* 2 */
+background: #212353;
+opacity: 0.1;
+
+}
 h1.about {
     /* About */
 
@@ -148,7 +270,9 @@ color: #212353;
 
 }
 h1.help {
-    /* Help */
+
+
+/* Help */
 
 position: absolute;
 width: 35px;
@@ -165,6 +289,8 @@ line-height: 160%;
 
 /* 1 */
 color: #4B5D68;
+
+
 
 
 }
@@ -625,5 +751,277 @@ line-height: 160%;
 color: #4B5D68;
 
  
+}
+
+h1.tryff {
+    /* Try for free! */
+
+position: absolute;
+width: 405px;
+height: 52px;
+left: 240px;
+top: 3750px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 130%;
+/* identical to box height, or 52px */
+display: flex;
+align-items: center;
+
+color: #212353;
+
+
+}
+
+h1.getlimit {
+/* Get limited 1 week free try our features! */
+
+position: absolute;
+width: 584px;
+height: 29px;
+left: 240px;
+top: 3822px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+/* 1 */
+color: #4B5D68;
+
+    
+}
+
+h1.lm {
+  /* Learn more */
+
+position: absolute;
+width: 196px;
+height: 29px;
+left: 984px;
+top: 3775px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+  
+}
+
+h1.rd {
+    /* Request Demo */
+
+position: absolute;
+width: 212px;
+height: 26px;
+left: 1176px;
+top: 3780px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+/* 2 */
+color: #212353;
+
+
+}
+
+h1.dw {
+    /* DataWarehouse */
+
+position: absolute;
+width: 253px;
+height: 30px;
+left: 309px;
+top: 4004px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+/* 2 */
+color: #212353;
+
+
+}
+
+h1.abt {
+    /* About */
+
+position: absolute;
+width: 51.75px;
+height: 30px;
+left: 715px;
+top: 4011px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+/* 2 */
+color: #212353;
+
+
+}
+
+h1.help {
+    /* Help */
+
+position: absolute;
+width: 51.75px;
+height: 30px;
+left: 931px;
+top: 4011px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+/* 2 */
+color: #212353;
+
+
+}
+
+h1.sm {
+    /* Social Media */
+
+position: absolute;
+width: 170px;
+height: 30px;
+left: 1147px;
+top: 4011px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+/* 2 */
+color: #212353;
+
+
+}
+
+h1.wsb {
+    /* Warehouse Society, 234 Bahagia Ave Street PRBW 29281 */
+
+position: absolute;
+width: 240px;
+height: 65px;
+left: 240px;
+top: 4101px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+/* or 29px */
+letter-spacing: 0.01em;
+
+/* 2 */
+color: #212353;
+
+
+}
+
+h1.email {
+    /* info@warehouse.project 1-232-3434 (Main) */
+
+position: absolute;
+width: 335px;
+height: 60px;
+left: 240px;
+top: 4176px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 180%;
+/* or 29px */
+letter-spacing: 0.01em;
+
+/* 2 */
+color: #212353;
+
+
+}
+
+h1.pfcd {
+    /* Profile Features Careers DW News */
+
+position: absolute;
+width: 66px;
+height: 160px;
+left: 715px;
+top: 4071px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 250%;
+/* or 40px */
+
+/* 2 */
+color: #212353;
+
+
+}
+
+h1.ssg {
+    /* Support Sign up Guide Reports Q&A */
+
+position: absolute;
+width: 66px;
+height: 190px;
+left: 931px;
+top: 4071px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 250%;
+/* or 40px */
+
+/* 2 */
+color: #212353;
+
+
 }
 
