@@ -35,7 +35,7 @@ left: 242px;
 top: 2789px;
 
 /* 4 */
-background: #F063B8;
+background: #9d69e2;
 border-radius: 50px;
 
 }
@@ -220,7 +220,7 @@ top: 4071px;
 /* 2 */
 background: #212353;
 opacity: 0.1;
-
+border-radius: 50px;
 }
 div.wwd {
     /* Ellipse 47 */
@@ -234,7 +234,7 @@ top: 4071px;
 /* 2 */
 background: #212353;
 opacity: 0.1;
-
+border-radius: 50px;
 }
 div.wwwd {
     /* Ellipse 47 */
@@ -248,6 +248,55 @@ top: 4071px;
 /* 2 */
 background: #212353;
 opacity: 0.1;
+border-radius: 50px;
+}
+div.sdpic {
+    /* image3 1 */
+
+position: absolute;
+width: 232px;
+height: 211px;
+left: 239px;
+top: 1946px;
+
+background-image: url("sdpic.png");
+
+}
+div.twofourpic {
+/* image4 */
+
+position: absolute;
+width: 231px;
+height: 185px;
+left: 813px;
+top: 1944px;
+
+
+background-image: url("twofourpic.png");
+
+}
+div.printerpic {
+    /* image5 1 */
+
+position: absolute;
+width: 245px;
+height: 181px;
+left: 220px;
+top: 2404px;
+
+background-image: url("printerpic.png");
+
+}
+div.lockpic {
+/* image6 1 */
+
+position: absolute;
+width: 230px;
+height: 201px;
+left: 818px;
+top: 2367px;
+
+background: url("lockpic.png");
 
 }
 h1.about {
@@ -1028,4 +1077,26 @@ color: #212353;
 
 
 }
+h1.testimonials{
+ /* Testimonials */
 
+position: absolute;
+width: 405px;
+height: 52px;
+left: 335px;
+top: 2898px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 130%;
+/* identical to box height, or 52px */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+}
