@@ -37,6 +37,18 @@ left: 603px;
 top: 333px;
 background-image: url("graphlady.png");
 }
+div.image2 {
+    /* image2  */
+
+position: absolute;
+width: 477px;
+height: 504px;
+left: 251px;
+top: 935px;
+
+background-image: url("image2.png");
+
+}
 div.background {
 
 
@@ -205,7 +217,7 @@ position: absolute;
 width: 112px;
 height: 26px;
 left: 1179px;
-top: 64px;
+top: 60px;
 
 font-family: Avenir;
 font-style: normal;
@@ -247,6 +259,43 @@ top: 77px;
 
 border: 2px solid #9C69E2;
 box-sizing: border-box;
+
+}
+div.learnmore {
+    /* Rectangle 26 */
+
+position: absolute;
+width: 170px;
+height: 60px;
+left: 240px;
+top: 641px;
+
+/* 3 */
+background: #9C69E2;
+border-radius: 50px;
+
+}
+h1.learnmorelbl {
+    /* Learn more */
+
+position: absolute;
+width: 196px;
+height: 5px;
+left: 277px;
+top: 657px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
 
 }
 h1.card1__title {
