@@ -53,7 +53,7 @@ background: #9C69E2;
 opacity: 0.2;
 
 }
-div.image1 {
+div.graphlady {
    /* image1 1 */
 
 position: absolute;
@@ -63,21 +63,21 @@ left: 603px;
 top: 333px;
 background-image: url("graphlady.png");
 }
-div.image2 {
-    /* image2  */
+div.busybody {
+
 
 position: absolute;
-width: 477px;
-height: 504px;
-left: 251px;
-top: 935px;
+width: 3117px;
+height: 860px;
+left: -650px;
+top: 600.18px;
 
-background-image: url("image2.png");
+
+border-radius: 50px;
+background-image: url("busybody.png");
 
 }
 div.background {
-
-
 /* Rectangle 34 */
 
 position: absolute;
@@ -88,6 +88,8 @@ top: 903.18px;
 
 background: rgba(240, 99, 184, 0.15);
 border-radius: 50px;
+
+
 
 }
 div.searchbackground {
@@ -645,7 +647,7 @@ h1.content3 {
 position: absolute;
 width: 584px;
 height: 58px;
-left: 507.29px;
+left: 400px;
 top: 1715px;
 
 font-family: Avenir;
@@ -654,6 +656,8 @@ font-weight: 500;
 font-size: 18px;
 line-height: 160%;
 /* or 29px */
+display: flex;
+align-items: center;
 text-align: center;
 
 /* 1 */
