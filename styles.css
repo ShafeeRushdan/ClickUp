@@ -1,4 +1,4 @@
-div.logosmall {
+div.header__purple {
     /* Rectangle 32 */
 
 position: absolute;
@@ -11,7 +11,7 @@ background: #9C69E2;
 border-radius: 20px;
 
 }
-div.logobig {
+div.header__pink {
 /* Rectangle 33 */
 
 position: absolute;
@@ -25,7 +25,7 @@ border-radius: 20px;
 
 
 }
-div.pbox { 
+div.testimonials__background { 
 /* Rectangle 35 */
 
 position: absolute;
@@ -39,7 +39,7 @@ background: #9d69e2;
 border-radius: 50px;
 
 }
-div.line {
+div.footer__line {
     /* Rectangle 41 */
 
 position: absolute;
@@ -53,7 +53,7 @@ background: #9C69E2;
 opacity: 0.2;
 
 }
-div.graphlady {
+div.main__graphic {
    /* image1 1 */
 
 position: absolute;
@@ -63,7 +63,7 @@ left: 500px;
 top: 333px;
 background-image: url("graphlady.png");
 }
-div.busybody {
+div.bank__image {
 
 
 /* image2  */
@@ -79,7 +79,7 @@ top: 830px;
 background-image: url("busybody.png");
 
 }
-div.background {
+div.bank__background {
 /* Rectangle 34 */
 
 position: absolute;
@@ -94,7 +94,7 @@ border-radius: 50px;
 
 
 }
-div.searchbackground {
+div.search__background {
     /* Rectangle 39 */
 
 position: absolute;
@@ -109,7 +109,7 @@ opacity: 0.1;
 border-radius: 50px;
 
 }
-div.hoursbackground {
+div.access__background {
  
 /* Rectangle 39 */
 
@@ -126,7 +126,7 @@ border-radius: 20px;
 
 
 }
-div.printbackground {
+div.print__background {
     /* Rectangle 39 */
 
 position: absolute;
@@ -141,7 +141,7 @@ opacity: 0.1;
 border-radius: 50px;
 
 }
-div.securitybackground {
+div.security__background {
     /* Rectangle 39 */
 
 position: absolute;
@@ -156,7 +156,7 @@ opacity: 0.1;
 border-radius: 20px;
 
 }
-div.lmbtn {
+div.footer__buttona {
     /* Rectangle 26 */
 
 position: absolute;
@@ -170,7 +170,7 @@ background: #F063B8;
 border-radius: 50px;
 
 }
-div.rdb {
+div.footer__buttonb {
     /* Rectangle 26 */
 
 position: absolute;
@@ -184,7 +184,7 @@ box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
 border-radius: 50px;
 
 }
-div.sp {
+div.footer__logoa {
     /* Rectangle 32 */
 
 position: absolute;
@@ -197,7 +197,7 @@ background: #9C69E2;
 border-radius: 20px;
 
 }
-div.spp {
+div.footer__logob {
     /* Rectangle 33 */
 
 position: absolute;
@@ -210,7 +210,7 @@ background: #F063B8;
 border-radius: 20px;
 
 }
-div.wd {
+div.footer__dota {
     /* Ellipse 47 */
 
 position: absolute;
@@ -224,7 +224,7 @@ background: #212353;
 opacity: 0.1;
 border-radius: 50px;
 }
-div.wwd {
+div.footer__dotb {
     /* Ellipse 47 */
 
 position: absolute;
@@ -238,7 +238,7 @@ background: #212353;
 opacity: 0.1;
 border-radius: 50px;
 }
-div.wwwd {
+div.footer__dotc {
     /* Ellipse 47 */
 
 position: absolute;
@@ -252,7 +252,7 @@ background: #212353;
 opacity: 0.1;
 border-radius: 50px;
 }
-div.sdpic {
+div.search__image {
     /* image3 1 */
 
 position: absolute;
@@ -264,7 +264,7 @@ top: 1946px;
 background-image: url("sdpic.png");
 
 }
-div.twofourpic {
+div.access__image {
 /* image4 */
 
 position: absolute;
@@ -277,7 +277,7 @@ top: 1944px;
 background-image: url("twofourpic.png");
 
 }
-div.printerpic {
+div.print__image {
     /* image5 1 */
 
 position: absolute;
@@ -289,7 +289,7 @@ top: 2404px;
 background-image: url("printerpic.png");
 
 }
-div.lockpic {
+div.security__image {
 /* image6 1 */
 
 position: absolute;
@@ -301,7 +301,7 @@ top: 2367px;
 background: url("lockpic.png");
 
 }
-h1.about {
+h1.header__about {
     /* About */
 
 position: absolute;
@@ -322,7 +322,7 @@ color: #212353;
 
 
 }
-h1.help {
+h1.header__help {
 
 
 /* Help */
@@ -347,7 +347,7 @@ color: #4B5D68;
 
 
 }
-h1.features {
+h1.header__features {
     /* Features */
 
 position: absolute;
@@ -368,7 +368,7 @@ color: #4B5D68;
 
 
 }
-h1.signup {
+h1.header__signup {
     /* Signup */
 
 position: absolute;
@@ -389,7 +389,7 @@ color: #4B5D68;
 
 
 }
-h1.requestdemo {
+h1.header__request {
     /* Request Demo */
 
 position: absolute;
@@ -413,7 +413,7 @@ color: #212353;
 
 
 }
-div.rdbox {
+div.header__button {
     /* Rectangle 26 */
 
 position: absolute;
@@ -427,7 +427,7 @@ box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
 border-radius: 50px;
 
 }
-div.arrow {
+div.header__arrow {
     /* Vector 74 */
 
 position: absolute;
@@ -440,7 +440,7 @@ border: 2px solid #9C69E2;
 box-sizing: border-box;
 
 }
-div.learnmore {
+div.main__learn {
     /* Rectangle 26 */
 
 position: absolute;
@@ -454,7 +454,7 @@ background: #9C69E2;
 border-radius: 50px;
 
 }
-h1.learnmorelbl {
+h1.main__button {
     /* Learn more */
 
 position: absolute;
@@ -477,7 +477,7 @@ color: #FFFFFF;
 
 
 }
-h1.card1__title {
+h1.main__title {
     
    
     position: absolute;
@@ -498,7 +498,7 @@ h1.card1__title {
     color: #222453;    
 }
 
-h1.title2 {
+h1.bank__title {
     
    
    /* We are a high-level data storage bank */
@@ -523,7 +523,7 @@ color: #212353;
 
    
 }
-h1.title3 {
+h1.features__title {
     /* Features */
 
 /* Features */
@@ -550,7 +550,7 @@ color: #212353;
 
 
 }
-h1.title4 {
+h1.search__title {
     /* Search Data */
 
 position: absolute;
@@ -572,7 +572,7 @@ color: #212353;
 
 
 }
-h1.title5 {
+h1.access__title {
     /* 24 Hours Access */
 
 position: absolute;
@@ -595,7 +595,7 @@ color: #212353;
 
 }
 
-h1.title6 {
+h1.print__title {
     /* Print Out */
 
 position: absolute;
@@ -618,7 +618,7 @@ color: #212353;
 
 }
 
-h1.title7 {
+h1.security__title {
     /* Security Code */
 
 position: absolute;
@@ -640,7 +640,7 @@ color: #212353;
 
 
 }
-h1.card1__content {
+h1.main__content {
 /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
 
 position: absolute;
@@ -662,7 +662,7 @@ color: #4B5D68;
    
 }
 
-h1.content2 {
+h1.bank__content {
     /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
     
     /* The place to store various data that you can access at any time through the internet and where you can carry it. This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse. */
@@ -689,7 +689,7 @@ color: #4B5D68;
     }
 
 
-h1.content3 {
+h1.features__content {
 
     /* Some of the features and advantages that we provide for those of you who store data in this Data Warehouse. */
 
@@ -720,7 +720,7 @@ color: #4B5D68;
 
     }
 
-h1.content4 {
+h1.search__content {
     /* Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time. */
 
 position: absolute;
@@ -742,7 +742,7 @@ color: #4B5D68;
 
 }
 
-h1.content5{
+h1.access__content{
     /* Access is given 24 hours a full morning to night and meet again in the morning, giving you comfort when you need data when urgent. */
 
 position: absolute;
@@ -764,7 +764,7 @@ color: #4B5D68;
 
 }
 
-h1.content6 {
+h1.print__content {
     /* Print out service gives you convenience if someday you need print data, just edit it all and just print it. */
 
 position: absolute;
@@ -786,7 +786,7 @@ color: #4B5D68;
 
 }
 
-h1.content7 {
+h1.security__content {
    /* Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password that you created, so only you can open the file. */
 
 position: absolute;
@@ -808,7 +808,7 @@ color: #4B5D68;
  
 }
 
-h1.tryff {
+h1.footer__try {
     /* Try for free! */
 
 position: absolute;
@@ -831,7 +831,7 @@ color: #212353;
 
 }
 
-h1.getlimit {
+h1.footer__limit {
 /* Get limited 1 week free try our features! */
 
 position: absolute;
@@ -853,7 +853,7 @@ color: #4B5D68;
     
 }
 
-h1.lm {
+h1.footer__learn {
   /* Learn more */
 
 position: absolute;
@@ -877,7 +877,7 @@ color: #FFFFFF;
   
 }
 
-h1.rd {
+h1.footer__demo {
     /* Request Demo */
 
 position: absolute;
@@ -902,7 +902,7 @@ color: #212353;
 
 }
 
-h1.dw {
+h1.footer__data {
     /* DataWarehouse */
 
 position: absolute;
@@ -924,7 +924,7 @@ color: #212353;
 
 }
 
-h1.abt {
+h1.footer__about {
     /* About */
 
 position: absolute;
@@ -946,7 +946,7 @@ color: #212353;
 
 }
 
-h1.help {
+h1.footer__help {
     /* Help */
 
 position: absolute;
@@ -968,7 +968,7 @@ color: #212353;
 
 }
 
-h1.sm {
+h1.footer__social {
     /* Social Media */
 
 position: absolute;
@@ -990,7 +990,7 @@ color: #212353;
 
 }
 
-h1.wsb {
+h1.footer__warehouse {
     /* Warehouse Society, 234 Bahagia Ave Street PRBW 29281 */
 
 position: absolute;
@@ -1013,7 +1013,7 @@ color: #212353;
 
 }
 
-h1.email {
+h1.footer__email {
     /* info@warehouse.project 1-232-3434 (Main) */
 
 position: absolute;
@@ -1036,7 +1036,7 @@ color: #212353;
 
 }
 
-h1.pfcd {
+h1.footer__profile {
     /* Profile Features Careers DW News */
 
 position: absolute;
@@ -1058,7 +1058,7 @@ color: #212353;
 
 }
 
-h1.ssg {
+h1.footer__support {
     /* Support Sign up Guide Reports Q&A */
 
 position: absolute;
@@ -1079,7 +1079,7 @@ color: #212353;
 
 
 }
-h1.testimonials{
+h1.testimonials__title{
  /* Testimonials */
 
 position: absolute;
