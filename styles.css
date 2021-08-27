@@ -31,7 +31,7 @@ div.testimonials__background {
 position: absolute;
 width: 1118px;
 height: 709px;
-left: 242px;
+left: 140px;
 top: 2789px;
 
 /* 4 */
@@ -39,6 +39,7 @@ background: #9d69e2;
 border-radius: 50px;
 
 }
+
 div.footer__line {
     /* Rectangle 41 */
 
@@ -71,7 +72,7 @@ div.bank__image {
 position: absolute;
 width: 550px;
 height: 550px;
-left: 180px;
+left: 100px;
 top: 830px;
 
 
@@ -85,7 +86,7 @@ div.bank__background {
 position: absolute;
 width: 1117px;
 height: 560px;
-left: 240px;
+left: 150px;
 top: 903.18px;
 
 background: rgba(240, 99, 184, 0.15);
@@ -100,7 +101,7 @@ div.search__background {
 position: absolute;
 width: 442px;
 height: 358px;
-left: 328.29px;
+left: 228.29px;
 top: 1873px;
 
 /* 5 */
@@ -132,7 +133,7 @@ div.print__background {
 position: absolute;
 width: 442px;
 height: 358px;
-left: 328.29px;
+left: 228.29px;
 top: 2281px;
 
 /* 4 */
@@ -258,7 +259,7 @@ div.search__image {
 position: absolute;
 width: 232px;
 height: 211px;
-left: 239px;
+left: 139px;
 top: 1946px;
 
 background-image: url("sdpic.png");
@@ -283,7 +284,7 @@ div.print__image {
 position: absolute;
 width: 245px;
 height: 181px;
-left: 220px;
+left: 120px;
 top: 2404px;
 
 background-image: url("printerpic.png");
@@ -319,7 +320,6 @@ line-height: 160%;
 
 /* 2 */
 color: #212353;
-
 
 }
 h1.header__help {
@@ -427,18 +427,20 @@ box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
 border-radius: 50px;
 
 }
-div.header__arrow {
-    /* Vector 74 */
+
+div.header__point {
+    /* Polygon 1 */
 
 position: absolute;
-width: 20px;
-height: 0px;
-left: 1311px;
-top: 77px;
+width: 100px;
+height: 100px;
+left: 1280px;
+top: 40px;
 
-border: 2px solid #9C69E2;
-box-sizing: border-box;
 
+
+
+background-image: url("point.png");
 }
 div.main__learn {
     /* Rectangle 26 */
@@ -506,7 +508,7 @@ h1.bank__title {
 position: absolute;
 width: 475px;
 height: 100px;
-left: 790px;
+left: 690px;
 top: 1028.18px;
 
 /* SubHeadline */
@@ -556,7 +558,7 @@ h1.search__title {
 position: absolute;
 width: 200px;
 height: 50px;
-left: 500.29px;
+left: 400.29px;
 top: 1922px;
 
 font-family: Helvetica;
@@ -601,7 +603,7 @@ h1.print__title {
 position: absolute;
 width: 200px;
 height: 50px;
-left: 500.29px;
+left: 400.29px;
 top: 2330px;
 
 font-family: Helvetica;
@@ -670,7 +672,7 @@ h1.bank__content {
 position: absolute;
 width: 474px;
 height: 170px;
-left: 790px;
+left: 690px;
 top: 1168.18px;
 
 font-family: Avenir;
@@ -726,7 +728,7 @@ h1.search__content {
 position: absolute;
 width: 220px;
 height: 160px;
-left: 500.29px;
+left: 400.29px;
 top: 1992px;
 
 font-family: Avenir;
@@ -770,7 +772,7 @@ h1.print__content {
 position: absolute;
 width: 220px;
 height: 160px;
-left: 500.29px;
+left: 400.29px;
 top: 2400px;
 
 font-family: Avenir;
@@ -1085,8 +1087,8 @@ h1.testimonials__title{
 position: absolute;
 width: 405px;
 height: 52px;
-left: 335px;
-top: 2898px;
+left: 235px;
+top: 2875px;
 
 font-family: Helvetica;
 font-style: normal;
@@ -1101,4 +1103,289 @@ color: #FFFFFF;
 
 
 
+}
+
+div.testimonials__carda {
+    /* Rectangle 35 */
+
+position: absolute;
+width: 645px;
+height: 330px;
+left: 235px;
+top: 3038px;
+
+background: #FFFFFF;
+box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+border-radius: 20px;
+
+
+box-shadow: 5px 20px #8a56db;
+
+}
+h1.testimonials__carda__content {
+    /* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla. */
+
+position: absolute;
+width: 385px;
+height: 130px;
+left: 425px;
+top: 3188px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 180%;
+/* or 32px */
+
+/* 1 */
+color: #4B5D68;
+
+
+}
+
+div.testimonials__cardb {
+    /* Rectangle 37 */
+
+position: absolute;
+width: 350px;
+height: 330px;
+left: 900px;
+top: 3038px;
+
+background: linear-gradient(-0.25turn, #9C69E2 9.75%, #FFFFFF 100%);
+/* 3 */
+border: 1px solid #9C69E2;
+box-sizing: border-box;
+border-radius: 20px;
+box-shadow: 5px 20px #8a56db;
+
+}
+
+h1.testimonials__carda__name {
+    /* John Fang */
+
+position: absolute;
+width: 170px;
+height: 29px;
+left: 425px;
+top: 3118px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+/* 2 */
+color: #212353;
+
+
+}
+h1.testimonials__carda__site {
+    /* wordfaang.com */
+
+position: absolute;
+width: 101px;
+height: 22px;
+left: 425px;
+top: 3147px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+/* or 22px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* 3 */
+color: #9C69E2;
+
+
+}
+div.testimonials__carda__image {
+    /* Ellipse 76 */
+
+position: absolute;
+width: 90px;
+height: 90px;
+left: 300px;
+top: 3098px;
+
+background-image: url("propic.png");
+
+}
+div.testimonials__cardb__image {
+/* Ellipse 76 */
+
+position: absolute;
+width: 90px;
+height: 90px;
+left: 950px;
+top: 3093px;
+background-image: url("propicb.png");
+
+}
+h1.testimonials__cardb__content {
+    /* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor */
+
+position: absolute;
+width: 180px;
+height: 130px;
+left: 1070px;
+top: 3183px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 180%;
+/* or 32px */
+
+/* 1 */
+color: #4B5D68;
+
+
+}
+h1.testimonials__cardb__site {
+    /* UX Engineer */
+
+position: absolute;
+width: 82px;
+height: 22px;
+left: 1070px;
+top: 3142px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+/* or 22px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* 3 */
+color: #9C69E2;
+
+
+}
+h1.testimonials__cardb__name {
+    /* Jeny Doe */
+
+position: absolute;
+width: 170px;
+height: 29px;
+left: 1070px;
+top: 3113px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+/* 2 */
+color: #212353;
+
+
+}
+div.testimonials__dota {
+    /* Ellipse 72 */
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 335px;
+top: 3428px;
+
+/* 4 */
+background: #F063B8;
+border-radius: 50px;
+}
+div.testimonials__dotb {
+    /* Ellipse 72 */
+
+/* Ellipse 73 */
+
+position: absolute;
+width: 5px;
+height: 5px;
+left: 355px;
+top: 3431px;
+
+background: #FFFFFF;
+
+border-radius: 50px;
+}
+div.testimonials__dotc {
+    /* Ellipse 74 */
+
+position: absolute;
+width: 5px;
+height: 5px;
+left: 370px;
+top: 3431px;
+border-radius: 50px;
+background: #FFFFFF;
+
+}
+div.testimonials__dotd {
+    /* Ellipse 75 */
+
+position: absolute;
+width: 5px;
+height: 5px;
+left: 385px;
+top: 3431px;
+border-radius: 50px;
+background: #FFFFFF;
+
+}
+div.testimonials__arrowa {
+/* Vector 74 */
+
+position: absolute;
+width: 80px;
+height: 100px;
+left: 1000px;
+top: 3400px;
+
+
+background-image: url("warrow.png");
+}
+div.testimonials__arrowb {
+/* Polygon 1 */
+
+position: absolute;
+width: 80px;
+height: 100px;
+left: 1080px;
+top: 3400px;
+opacity: 20%;
+background-image: url("warrowb.png");
+}
+div.footer__arrow {
+/* Vector 74 */
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1275px;
+top: 3760px;
+
+
+background-image: url("point.png");
 }
