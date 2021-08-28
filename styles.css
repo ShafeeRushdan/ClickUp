@@ -2,33 +2,291 @@ div.header__purple {
     /* Rectangle 32 */
 
 position: absolute;
-width: 20px;
-height: 20px;
-left: 50px;
-top: 74px;
+width: 1%;
+height: 2%;
+left: 10%;
+top: 11%;
 
 background: #9C69E2;
-border-radius: 20px;
+border-radius: 15px;
 
 }
 div.header__pink {
 /* Rectangle 33 */
 
 position: absolute;
-width: 20px;
-height: 35px;
-left: 79px;
-top: 59px;
+width: 1%;
+height: 3.5%;
+left: 11.5%;
+top: 9.5%;
 
 background: #F063B8;
 border-radius: 20px;
 
 
 }
-div.testimonials__background { 
-/* Rectangle 35 */
+h1.header__about {
+    /* About */
 
 position: absolute;
+left: 25%;
+top: 8%;
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+/* 2 */
+color: #212353;
+
+}
+h1.header__help {
+/* Help */
+position: absolute;
+left: 33%;
+top: 8%;
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+/* 1 */
+color: #4B5D68;
+
+
+
+
+}
+h1.header__features {
+    /* Features */
+
+position: absolute;
+left: 40%;
+top: 8%;
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+/* 1 */
+color: #4B5D68;
+
+
+}
+h1.header__signup {
+    /* Signup */
+
+position: absolute;
+left: 50%;
+top: 8%;
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+/* 1 */
+color: #4B5D68;
+
+
+}
+h1.header__request {
+    /* Request Demo */
+    position: absolute;
+    left: 81.5%;
+    top: 8%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    /* 2 */
+    color: #212353;
+}
+div.header__button {
+    /* Rectangle 26 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 15%;
+    height: 8%;
+    left: 79%;
+    top: 7%;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    
+}
+
+div.header__point {
+    /* Polygon 1 */
+    
+    position: absolute;
+    width: 7%;
+    height: 100px;
+    left: 89%;
+    top: 40px;
+    
+    box-sizing: border-box;
+    
+    
+    background-image: url("point.png");
+}
+div.main__graphic {
+    /* image1 1 */
+    position: absolute;
+    width: 62%;
+    height: 65%;
+    left: 38%;
+    top: 40%;
+    background-image: url("graphlady.png");
+}
+h1.main__title {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-family: Helvetica;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 40%;
+    color: #222453; 
+    
+}
+h1.main__content {
+    /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
+    position: absolute;
+    width: 30%;
+    left: 10%;
+    top: 65%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+    
+    /* 1 */
+    color: #4B5D68; 
+}
+div.main__button {
+    /* Rectangle 26 */
+position: absolute;
+width: 13%;
+height: 9%;
+left: 15%;
+top: 90%;
+/* 3 */
+background: #9C69E2;
+border-radius: 50px;
+
+}
+h1.main__learn {
+    /* Learn more */
+position: absolute;
+left: 18%;
+top: 91%;
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+h1.bank__title {
+    /* We are a high-level data storage bank */
+    position: absolute;
+    width: 35%;
+    left: 50%;
+    top: 140%;
+    
+    /* SubHeadline */
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    /* or 52px */
+    display: flex;
+    align-items: center;
+    
+    color: #212353;
+    
+    
+}
+h1.bank__content {
+    /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
+    
+    /* The place to store various data that you can access at any time through the internet and where you can carry it. This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse. */
+    position: absolute;
+    width: 35%;
+    left: 50%;
+    top: 165%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+    
+    /* 1 */
+    color: #4B5D68;
+    
+    
+    
+    
+}
+div.bank__background {
+    /* Rectangle 34 */
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 130%;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;   
+}
+div.bank__image {
+
+
+/* image2  */
+
+position: absolute;
+width: 50%;
+height: 100%;
+left: 7%;
+top: 120%;
+
+
+
+background-image: url("busybody.png");
+
+}
+div.testimonials__background { 
+    /* Rectangle 35 */
+    
+    position: absolute;
 width: 1118px;
 height: 709px;
 left: 140px;
@@ -39,8 +297,8 @@ background: #9d69e2;
 border-radius: 50px;
 
 }
-
 div.footer__line {
+
     /* Rectangle 41 */
 
 position: absolute;
@@ -54,51 +312,10 @@ background: #9C69E2;
 opacity: 0.2;
 
 }
-div.main__graphic {
-   /* image1 1 */
-
-position: absolute;
-width: 885px;
-height: 468px;
-left: 500px;
-top: 333px;
-background-image: url("graphlady.png");
-}
-div.bank__image {
-
-
-/* image2  */
-
-position: absolute;
-width: 550px;
-height: 550px;
-left: 100px;
-top: 830px;
-
-
-
-background-image: url("busybody.png");
-
-}
-div.bank__background {
-/* Rectangle 34 */
-
-position: absolute;
-width: 1117px;
-height: 560px;
-left: 150px;
-top: 903.18px;
-
-background: rgba(240, 99, 184, 0.15);
-border-radius: 50px;
-
-
-
-}
 div.search__background {
     /* Rectangle 39 */
-
-position: absolute;
+    
+    position: absolute;
 width: 442px;
 height: 358px;
 left: 228.29px;
@@ -302,229 +519,7 @@ top: 2367px;
 background: url("lockpic.png");
 
 }
-h1.header__about {
-    /* About */
 
-position: absolute;
-width: 53px;
-height: 30px;
-left: 410px;
-top: 62px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 800;
-font-size: 16px;
-line-height: 160%;
-/* or 26px */
-
-/* 2 */
-color: #212353;
-
-}
-h1.header__help {
-
-
-/* Help */
-
-position: absolute;
-width: 35px;
-height: 26px;
-left: 503px;
-top: 64px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 160%;
-/* identical to box height, or 26px */
-
-/* 1 */
-color: #4B5D68;
-
-
-
-
-}
-h1.header__features {
-    /* Features */
-
-position: absolute;
-width: 63px;
-height: 26px;
-left: 578px;
-top: 64px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 160%;
-/* identical to box height, or 26px */
-
-/* 1 */
-color: #4B5D68;
-
-
-}
-h1.header__signup {
-    /* Signup */
-
-position: absolute;
-width: 51px;
-height: 26px;
-left: 681px;
-top: 64px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 160%;
-/* identical to box height, or 26px */
-
-/* 1 */
-color: #4B5D68;
-
-
-}
-h1.header__request {
-    /* Request Demo */
-
-position: absolute;
-width: 112px;
-height: 26px;
-left: 1179px;
-top: 60px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 800;
-font-size: 16px;
-line-height: 160%;
-/* identical to box height, or 26px */
-display: flex;
-align-items: center;
-letter-spacing: 0.005em;
-
-/* 2 */
-color: #212353;
-
-
-}
-div.header__button {
-    /* Rectangle 26 */
-
-position: absolute;
-width: 210px;
-height: 60px;
-left: 1150px;
-top: 47px;
-
-background: #FFFFFF;
-box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-border-radius: 50px;
-
-}
-
-div.header__point {
-    /* Polygon 1 */
-
-position: absolute;
-width: 100px;
-height: 100px;
-left: 1280px;
-top: 40px;
-
-
-
-
-background-image: url("point.png");
-}
-div.main__learn {
-    /* Rectangle 26 */
-
-position: absolute;
-width: 170px;
-height: 60px;
-left: 240px;
-top: 641px;
-
-/* 3 */
-background: #9C69E2;
-border-radius: 50px;
-
-}
-h1.main__button {
-    /* Learn more */
-
-position: absolute;
-width: 196px;
-height: 5px;
-left: 277px;
-top: 657px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 160%;
-/* identical to box height, or 29px */
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-
-
-}
-h1.main__title {
-    
-   
-    position: absolute;
-    width: 645px;
-    height: 184px;
-    left: 50px;
-    top: 170px;
-
-
-    font-family: Helvetica;
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 88px;
-    letter-spacing: 0em;
-    text-align: left;
-    width: 40%;
-    color: #222453;    
-}
-
-h1.bank__title {
-    
-   
-   /* We are a high-level data storage bank */
-
-position: absolute;
-width: 475px;
-height: 100px;
-left: 690px;
-top: 1028.18px;
-
-/* SubHeadline */
-font-family: Helvetica;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 130%;
-/* or 52px */
-display: flex;
-align-items: center;
-
-color: #212353;
-
-   
-}
 h1.features__title {
     /* Features */
 
@@ -642,53 +637,7 @@ color: #212353;
 
 
 }
-h1.main__content {
-/* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
 
-position: absolute;
-width: 380px;
-height: 120px;
-left: 50px;
-top: 471px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 160%;
-/* or 29px */
-
-/* 1 */
-color: #4B5D68;
-
-   
-}
-
-h1.bank__content {
-    /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
-    
-    /* The place to store various data that you can access at any time through the internet and where you can carry it. This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse. */
-
-position: absolute;
-width: 474px;
-height: 170px;
-left: 690px;
-top: 1168.18px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 160%;
-/* or 29px */
-
-/* 1 */
-color: #4B5D68;
-
-
-    
-       
-    }
 
 
 h1.features__content {
@@ -1389,3 +1338,19 @@ top: 3760px;
 
 background-image: url("point.png");
 }
+
+div.header {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+  }
+  
+  @media only screen and (max-width: 1190px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+ 
