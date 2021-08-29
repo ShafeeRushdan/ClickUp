@@ -128,7 +128,6 @@ div.header__button {
     border-radius: 50px;
     
 }
-
 div.header__point {
     /* Polygon 1 */
     
@@ -166,13 +165,14 @@ h1.main__title {
     width: 40%;
     color: #222453; 
     
+    
 }
 h1.main__content {
     /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
     position: absolute;
-    width: 30%;
+    width: 26%;
     left: 10%;
-    top: 65%;
+    top: 66%;
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -197,22 +197,22 @@ border-radius: 50px;
 }
 h1.main__learn {
     /* Learn more */
-position: absolute;
-left: 18%;
-top: 91%;
-font-family: Avenir;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 160%;
-/* identical to box height, or 29px */
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-
-
+    position: absolute;
+    left: 18%;
+    top: 91%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
 }
 h1.bank__title {
     /* We are a high-level data storage bank */
@@ -268,269 +268,26 @@ div.bank__background {
     border-radius: 50px;   
 }
 div.bank__image {
-
-
-/* image2  */
-
-position: absolute;
-width: 50%;
-height: 100%;
-left: 7%;
-top: 120%;
-
-
-
-background-image: url("busybody.png");
-
-}
-div.testimonials__background { 
-    /* Rectangle 35 */
+    
+    
+    /* image2  */
     
     position: absolute;
-width: 1118px;
-height: 709px;
-left: 140px;
-top: 2789px;
-
-/* 4 */
-background: #9d69e2;
-border-radius: 50px;
-
-}
-div.footer__line {
-
-    /* Rectangle 41 */
-
-position: absolute;
-width: 100%;
-height: 2px;
-left: 0px;
-top: 3648px;
-
-/* 3 */
-background: #9C69E2;
-opacity: 0.2;
-
-}
-div.search__background {
-    /* Rectangle 39 */
+    width: 50%;
+    height: 100%;
+    left: 7%;
+    top: 120%;
     
-    position: absolute;
-width: 442px;
-height: 358px;
-left: 228.29px;
-top: 1873px;
-
-/* 5 */
-background: #68C9BA;
-opacity: 0.1;
-border-radius: 50px;
-
+    
+    
+    background-image: url("busybody.png");
+    
 }
-div.access__background {
- 
-/* Rectangle 39 */
-
-position: absolute;
-width: 442px;
-height: 358px;
-left: 915.28px;
-top: 1873px;
-
-/* 3 */
-background: #9C69E2;
-opacity: 0.1;
-border-radius: 20px;
-
-
-}
-div.print__background {
-    /* Rectangle 39 */
-
-position: absolute;
-width: 442px;
-height: 358px;
-left: 228.29px;
-top: 2281px;
-
-/* 4 */
-background: #F063B8;
-opacity: 0.1;
-border-radius: 50px;
-
-}
-div.security__background {
-    /* Rectangle 39 */
-
-position: absolute;
-width: 442px;
-height: 358px;
-left: 915.28px;
-top: 2281px;
-
-/* Blue 2 */
-background: #2D9CDB;
-opacity: 0.1;
-border-radius: 20px;
-
-}
-div.footer__buttona {
-    /* Rectangle 26 */
-
-position: absolute;
-width: 170px;
-height: 60px;
-left: 947px;
-top: 3771px;
-
-/* 4 */
-background: #F063B8;
-border-radius: 50px;
-
-}
-div.footer__buttonb {
-    /* Rectangle 26 */
-
-position: absolute;
-width: 210px;
-height: 60px;
-left: 1147px;
-top: 3771px;
-
-background: #FFFFFF;
-box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-border-radius: 50px;
-
-}
-div.footer__logoa {
-    /* Rectangle 32 */
-
-position: absolute;
-width: 20px;
-height: 20px;
-left: 240px;
-top: 4016px;
-
-background: #9C69E2;
-border-radius: 20px;
-
-}
-div.footer__logob {
-    /* Rectangle 33 */
-
-position: absolute;
-width: 20px;
-height: 35px;
-left: 269px;
-top: 4001px;
-
-background: #F063B8;
-border-radius: 20px;
-
-}
-div.footer__dota {
-    /* Ellipse 47 */
-
-position: absolute;
-width: 50px;
-height: 50px;
-left: 1147px;
-top: 4071px;
-
-/* 2 */
-background: #212353;
-opacity: 0.1;
-border-radius: 50px;
-}
-div.footer__dotb {
-    /* Ellipse 47 */
-
-position: absolute;
-width: 50px;
-height: 50px;
-left: 1211px;
-top: 4071px;
-
-/* 2 */
-background: #212353;
-opacity: 0.1;
-border-radius: 50px;
-}
-div.footer__dotc {
-    /* Ellipse 47 */
-
-position: absolute;
-width: 50px;
-height: 50px;
-left: 1275px;
-top: 4071px;
-
-/* 2 */
-background: #212353;
-opacity: 0.1;
-border-radius: 50px;
-}
-div.search__image {
-    /* image3 1 */
-
-position: absolute;
-width: 232px;
-height: 211px;
-left: 139px;
-top: 1946px;
-
-background-image: url("sdpic.png");
-
-}
-div.access__image {
-/* image4 */
-
-position: absolute;
-width: 231px;
-height: 185px;
-left: 813px;
-top: 1944px;
-
-
-background-image: url("twofourpic.png");
-
-}
-div.print__image {
-    /* image5 1 */
-
-position: absolute;
-width: 245px;
-height: 181px;
-left: 120px;
-top: 2404px;
-
-background-image: url("printerpic.png");
-
-}
-div.security__image {
-/* image6 1 */
-
-position: absolute;
-width: 230px;
-height: 201px;
-left: 818px;
-top: 2367px;
-
-background: url("lockpic.png");
-
-}
-
 h1.features__title {
     /* Features */
-
-/* Features */
-
 position: absolute;
-width: 405px;
-height: 52px;
-left: 596.29px;
-top: 1613px;
-
+left: 45%;
+top: 220%;
 font-family: Helvetica;
 font-style: normal;
 font-weight: bold;
@@ -540,118 +297,14 @@ line-height: 130%;
 display: flex;
 align-items: center;
 text-align: center;
-
 color: #212353;
-
-
-
-
 }
-h1.search__title {
-    /* Search Data */
-
-position: absolute;
-width: 200px;
-height: 50px;
-left: 400.29px;
-top: 1922px;
-
-font-family: Helvetica;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 130%;
-/* or 31px */
-display: flex;
-align-items: center;
-
-color: #212353;
-
-
-}
-h1.access__title {
-    /* 24 Hours Access */
-
-position: absolute;
-width: 200px;
-height: 50px;
-left: 1087.28px;
-top: 1922px;
-
-font-family: Helvetica;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 130%;
-/* or 31px */
-display: flex;
-align-items: center;
-
-color: #212353;
-
-
-}
-
-h1.print__title {
-    /* Print Out */
-
-position: absolute;
-width: 200px;
-height: 50px;
-left: 400.29px;
-top: 2330px;
-
-font-family: Helvetica;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 130%;
-/* or 31px */
-display: flex;
-align-items: center;
-
-color: #212353;
-
-
-}
-
-h1.security__title {
-    /* Security Code */
-
-position: absolute;
-width: 200px;
-height: 50px;
-left: 1087.28px;
-top: 2330px;
-
-font-family: Helvetica;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 130%;
-/* or 31px */
-display: flex;
-align-items: center;
-
-color: #212353;
-
-
-}
-
-
-
 h1.features__content {
-
-    /* Some of the features and advantages that we provide for those of you who store data in this Data Warehouse. */
-
 /* Some of the features and advantages that we provide for those of you who store data in this Data Warehouse. */
-
 position: absolute;
-width: 584px;
-height: 58px;
-left: 400px;
-top: 1715px;
-
+width: 40%;
+left: 30%;
+top: 240%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 500;
@@ -661,135 +314,579 @@ line-height: 160%;
 display: flex;
 align-items: center;
 text-align: center;
-
 /* 1 */
 color: #4B5D68;
-
-
-
-
-
     }
-
+h1.search__title {
+    /* Search Data */
+    position: absolute;
+    left: 25%;
+    top: 270%;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    display: flex;
+    align-items: center;
+    color: #212353;
+    }
 h1.search__content {
-    /* Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time. */
-
-position: absolute;
-width: 220px;
-height: 160px;
-left: 400.29px;
-top: 1992px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 160%;
-/* or 26px */
-
-/* 1 */
-color: #4B5D68;
-
-
-}
-
+/* Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time. */
+    position: absolute;
+    width: 15.5%;
+    left: 25%;
+    top: 280%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    
+    /* 1 */
+    color: #4B5D68;
+    }
+div.search__image {
+        /* image3 1 */
+    position: absolute;
+    width: 16%;
+    height: 30%;
+    left: 5%;
+    top: 280%;
+    background-image: url("sdpic.png");
+    
+    }
+div.search__background {
+        /* Rectangle 39 */  
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    left: 15%;
+    top: 265%;
+    /* 5 */
+    background: #68C9BA;
+    opacity: 0.1;
+    border-radius: 50px; 
+    
+    }
+h1.access__title {
+    /* 24 Hours Access */
+    position: absolute;
+    left: 70%;
+    top: 270%;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    display: flex;
+    align-items: center;
+    color: #212353;
+    }
 h1.access__content{
-    /* Access is given 24 hours a full morning to night and meet again in the morning, giving you comfort when you need data when urgent. */
-
-position: absolute;
-width: 220px;
-height: 160px;
-left: 1087.28px;
-top: 1992px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 160%;
-/* or 26px */
-
-/* 1 */
-color: #4B5D68;
-
-
-}
-
-h1.print__content {
-    /* Print out service gives you convenience if someday you need print data, just edit it all and just print it. */
-
-position: absolute;
-width: 220px;
-height: 160px;
-left: 400.29px;
-top: 2400px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 160%;
-/* or 26px */
-
-/* 1 */
-color: #4B5D68;
-
-
-}
-
-h1.security__content {
-   /* Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password that you created, so only you can open the file. */
-
-position: absolute;
-width: 220px;
-height: 160px;
-left: 1087.28px;
-top: 2400px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 160%;
-/* or 26px */
-
-/* 1 */
-color: #4B5D68;
-
+/* Access is given 24 hours a full morning to night and meet again in the morning, giving you comfort when you need data when urgent. */
+            
+            position: absolute;
+            width: 15.5%;
+            left: 70%;
+            top: 280%;
+            
+            font-family: Avenir;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 160%;
+            /* or 26px */
+            
+            /* 1 */
+            color: #4B5D68;
+            
+            
+            }
+div.access__background {
  
+        /* Rectangle 39 */
+        
+        position: absolute;
+        width: 30%;
+        height: 50%;
+        left: 60%;
+        top: 265%;
+        
+        /* 3 */
+        background: #9C69E2;
+        opacity: 0.1;
+        border-radius: 20px;
+        
+        
+        }
+div.access__image {
+        /* image4 */
+        
+        position: absolute;
+        width: 231px;
+        height: 185px;
+        left: 50%;
+        top: 1944px;
+        
+        
+        background-image: url("twofourpic.png");
+        
+        }
+h1.print__title {
+                    /* Print Out */
+                
+                position: absolute;
+                left: 25%;
+                top: 335%;
+                
+                font-family: Helvetica;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 130%;
+                /* or 31px */
+                display: flex;
+                align-items: center;
+                
+                color: #212353;
+                
+                
+                }
+h1.print__content {
+                            /* Print out service gives you convenience if someday you need print data, just edit it all and just print it. */
+                        
+                        position: absolute;
+                        width: 15.5%;
+                        left: 25%;
+                        top: 345%;
+                        
+                        font-family: Avenir;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 160%;
+                        /* or 26px */
+                        
+                        /* 1 */
+                        color: #4B5D68;
+                        
+                        
+                        }
+div.print__image {
+        /* image5 1 */
+        position: absolute;
+        width: 16%;
+        height: 30%;
+        left: 5%;
+        top: 340%;
+        background-image: url("printerpic.png");
+        }
+div.print__background {
+            /* Rectangle 39 */
+        
+        position: absolute;
+        width: 30%;
+        height: 50%;
+        left: 15%;
+        top: 325%;
+        /* 4 */
+        background: #F063B8;
+        opacity: 0.1;
+        border-radius: 50px;
+        
+        }
+h1.security__title {
+                        /* Security Code */
+                    
+                    position: absolute;
+                    width: 15.5%;
+                    left: 70%;
+                    top: 335%;
+                    
+                    font-family: Helvetica;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 130%;
+                    /* or 31px */
+                    display: flex;
+                    align-items: center;
+                    
+                    color: #212353;
+                    
+                    
+                    }
+h1.security__content {
+                                   /* Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password that you created, so only you can open the file. */
+                                
+                                position: absolute;
+                                width: 15.5%;
+                                left: 70%;
+                                top: 345%;
+                                
+                                font-family: Avenir;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: 160%;
+                                /* or 26px */
+                                
+                                /* 1 */
+                                color: #4B5D68;
+                                
+                                
+                                }
+div.security__image {
+    /* image6 1 */
+                                    
+    position: absolute;
+    width: 16%;
+    height: 30%;
+    left: 50%;
+    top: 340%;                        
+    background: url("lockpic.png");
+    
 }
+div.security__background {
+    /* Rectangle 39 */
+    
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    left: 60%;
+    top: 325%;
+    
+    /* Blue 2 */
+    background: #2D9CDB;
+    opacity: 0.1;
+    border-radius: 20px;
+    
+}
+div.testimonials__background { 
+    /* Rectangle 35 */ 
+position: absolute;
+width: 80%;
+height: 90%;
+left: 10%;
+top: 400%;
+/* 4 */
+background: #9d69e2;
+border-radius: 50px;
+}
+h1.testimonials__title{
+    /* Testimonials */
+                                
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 18%;
+    top: 405%;                          
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    /* identical to box height, or 52px */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;                            
+                                }
+div.testimonials__carda {
+    /* Rectangle 35 */
+                                
+    position: absolute;
+    width: 45%;
+    height: 50%;
+    left: 18%;
+    top: 425%;                  
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+    box-shadow: 5px 20px #8a56db;
+                                }
+h1.testimonials__carda__content {
+/* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla. */
+                                
+    position: absolute;
+    width: 26.5%;
+    height: 50%;
+    left: 30%;
+    top: 447%;                           
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+                                
+    /* 1 */
+    color: #4B5D68;
+                                
+                                
+                                }
+h1.testimonials__carda__name {
+        /* John Fang */
+                                                                
+        position: absolute;
+        width: 10%;
+        height: 5%;
+        left: 30%;
+        top: 435%;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 160%;
+        /* identical to box height, or 29px */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.005em;
+                                                                
+        /* 2 */
+        color: #212353;
+                                                                
+                                                                
+                                }
+h1.testimonials__carda__site {
+    /* wordfaang.com */
+                                                                
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 30%;
+    top: 440%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    
+    /* or 22px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+                                                                
+    /* 3 */
+    color: #9C69E2;
+                                                                
+                                                                
+}
+div.testimonials__carda__image {
+        /* Ellipse 76 */
+                                
+        position: absolute;
+        width: 6.3%;
+        height: 13%;
+        left: 22%;
+        top: 435%;                        
+        background-image: url("propic.png");
+                                
+                                }
+div.testimonials__cardb {
+    /* Rectangle 37 */
+                                
+    position: absolute;
+    width: 24%;
+    height: 50%;
+    left: 65%;
+    top: 425%; 
+    background: linear-gradient(-0.25turn, #9C69E2 9.75%, #FFFFFF 100%);
+    /* 3 */
+    border: 1px solid #9C69E2;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 5px 20px #8a56db;
+                                
+                                }
+div.testimonials__cardb__image {
+    /* Ellipse 76 */
+                                
+    position: absolute;
+    width: 6.3%;
+    height: 13%;
+    left: 68%;
+    top: 435%; 
+    background-image: url("propicb.png");
+                                
+                                }
+h1.testimonials__cardb__content {
+/* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor */
+                                
+    position: absolute;
+    width: 12.5%;
+    height: 50%;
+    left: 75%;
+    top: 447%;  
+                                
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+/* or 32px */
+                                
+/* 1 */
+    color: #4B5D68;
+                                
+                                
+                                }
+h1.testimonials__cardb__site {
+    /* UX Engineer */
+                                
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 75%;
+    top: 440%;
+                                
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    
+    /* or 22px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+                                
+    /* 3 */
+    color: #9C69E2;
+                                }
+h1.testimonials__cardb__name {
+        /* Jeny Doe */
+                                
+        position: absolute;
+        width: 10%;
+        height: 5%;
+        left: 75%;
+        top: 435%;
+                                
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 160%;
+        /* identical to box height, or 29px */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.005em;
+                                
+        /* 2 */
+        color: #212353;
+                                
+                                
+                                }
+div.testimonials__dota {
+        /* Ellipse 72 */
+                                
+        position: absolute;
+        width: 1%;
+        height: 2%;
+        left: 18%;
+        top: 485%; 
+                                
+        /* 4 */
+        background: #F063B8;
+        border-radius: 50px;
+                                }
+div.testimonials__dotb {                          
+        /* Ellipse 73 */
+                                
+        position: absolute;
+        width: .5%;
+        height: 1%;
+        left: 20%;
+        top: 485.5%; 
+                                
+                                background: #FFFFFF;
+                                
+                                border-radius: 50px;
+                                }
+div.testimonials__dotc {
+        /* Ellipse 74 */
+                                
+        position: absolute;
+        width: .5%;
+        height: 1%;
+        left: 22%;
+        top: 485.5%; 
+        border-radius: 50px;
+        background: #FFFFFF;
+                                
+                                }
+div.testimonials__dotd {
+        /* Ellipse 75 */
+                                
+        position: absolute;
+        width: .5%;
+        height: 1%;
+        left: 24%;
+        top: 485.5%; 
+                                border-radius: 50px;
+                                background: #FFFFFF;
+                                
+                                }
+div.testimonials__arrowa {
+    /* Vector 74 */
+                                
+    position: absolute;
+    width: 6%;
+    height: 10%;
+    left: 70%;
+    top: 477%;                    
+    background-image: url("warrow.png");
+                                }
+div.testimonials__arrowb {
+/* Polygon 1 */
+                                
+position: absolute;
+width: 6%;
+height: 10%;
+left: 76%;
+top: 477%; 
+opacity: 20%;
+background-image: url("warrowb.png");
+                                }
+div.footer__line {
 
+/* Rectangle 41 */
+position: absolute;
+width: 100%;
+height: .25%;
+top: 515%;
+/* 3 */
+background: #9C69E2;
+opacity: 0.2;
+
+}
 h1.footer__try {
     /* Try for free! */
-
-position: absolute;
-width: 405px;
-height: 52px;
-left: 240px;
-top: 3750px;
-
-font-family: Helvetica;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 130%;
-/* identical to box height, or 52px */
-display: flex;
-align-items: center;
-
-color: #212353;
-
-
+    
+    position: absolute;
+    left: 16%;
+    top: 530%;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    /* identical to box height, or 52px */
+    display: flex;
+    align-items: center;
+    
+    color: #212353;  
 }
-
 h1.footer__limit {
 /* Get limited 1 week free try our features! */
 
 position: absolute;
-width: 584px;
-height: 29px;
-left: 240px;
-top: 3822px;
+left: 16%;
+top: 545%;
 
 font-family: Avenir;
 font-style: normal;
@@ -803,39 +900,60 @@ color: #4B5D68;
 
     
 }
-
-h1.footer__learn {
-  /* Learn more */
+div.footer__buttona {
+    /* Rectangle 26 */
 
 position: absolute;
-width: 196px;
-height: 29px;
-left: 984px;
-top: 3775px;
+width: 12%;
+height: 8.5%;
+left: 65%;
+top: 535%;
 
-font-family: Avenir;
-font-style: normal;
-font-weight: 900;
-font-size: 18px;
-line-height: 160%;
-/* identical to box height, or 29px */
-display: flex;
-align-items: center;
-text-align: center;
+/* 4 */
+background: #F063B8;
+border-radius: 50px;
 
-color: #FFFFFF;
-
-  
 }
+h1.footer__learn {
+    /* Learn more */
+  
+  position: absolute;
+  left: 67.5%;
+  top: 535.5%;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+    
+  }
+div.footer__buttonb {
+    /* Rectangle 26 */
 
+position: absolute;
+width: 14%;
+height: 8.5%;
+left: 80%;
+top: 535%;
+
+background: #FFFFFF;
+box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+border-radius: 50px;
+
+}
 h1.footer__demo {
     /* Request Demo */
 
 position: absolute;
-width: 212px;
-height: 26px;
-left: 1176px;
-top: 3780px;
+left: 82%;
+top: 535.5%;
 
 font-family: Avenir;
 font-style: normal;
@@ -852,16 +970,50 @@ color: #212353;
 
 
 }
+div.footer__arrow {
+    /* Vector 74 */
+    
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 88.5%;
+    top: 533%;
+    
+    
+    background-image: url("point.png");
+    }
+div.footer__logoa {
+    /* Rectangle 32 */
 
+position: absolute;
+width: 1.5%;
+height: 3%;
+left: 16%;
+top: 570%;
+
+background: #9C69E2;
+border-radius: 20px;
+
+}
+div.footer__logob {
+    /* Rectangle 33 */
+
+position: absolute;
+width: 1.5%;
+height: 5%;
+left: 18%;
+top: 568%;
+
+background: #F063B8;
+border-radius: 20px;
+
+}
 h1.footer__data {
     /* DataWarehouse */
 
 position: absolute;
-width: 253px;
-height: 30px;
-left: 309px;
-top: 4004px;
-
+left: 22%;
+top: 567%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 800;
@@ -874,15 +1026,12 @@ color: #212353;
 
 
 }
-
 h1.footer__about {
     /* About */
 
 position: absolute;
-width: 51.75px;
-height: 30px;
-left: 715px;
-top: 4011px;
+left: 50%;
+top: 567%;
 
 font-family: Avenir;
 font-style: normal;
@@ -896,16 +1045,12 @@ color: #212353;
 
 
 }
-
 h1.footer__help {
     /* Help */
 
 position: absolute;
-width: 51.75px;
-height: 30px;
-left: 931px;
-top: 4011px;
-
+left: 65%;
+top: 567%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 900;
@@ -918,15 +1063,12 @@ color: #212353;
 
 
 }
-
 h1.footer__social {
     /* Social Media */
 
 position: absolute;
-width: 170px;
-height: 30px;
-left: 1147px;
-top: 4011px;
+left: 80%;
+top: 567%;
 
 font-family: Avenir;
 font-style: normal;
@@ -940,16 +1082,13 @@ color: #212353;
 
 
 }
-
 h1.footer__warehouse {
     /* Warehouse Society, 234 Bahagia Ave Street PRBW 29281 */
 
 position: absolute;
-width: 240px;
-height: 65px;
-left: 240px;
-top: 4101px;
-
+width: 17%;
+left: 16%;
+top: 580%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 500;
@@ -963,15 +1102,13 @@ color: #212353;
 
 
 }
-
 h1.footer__email {
     /* info@warehouse.project 1-232-3434 (Main) */
 
 position: absolute;
-width: 335px;
-height: 60px;
-left: 240px;
-top: 4176px;
+width: 13%;
+left: 16%;
+top: 592%;
 
 font-family: Avenir;
 font-style: normal;
@@ -986,15 +1123,13 @@ color: #212353;
 
 
 }
-
 h1.footer__profile {
     /* Profile Features Careers DW News */
 
 position: absolute;
-width: 66px;
-height: 160px;
-left: 715px;
-top: 4071px;
+width: 4%;
+left: 50%;
+top: 580%;
 
 font-family: Avenir;
 font-style: normal;
@@ -1008,15 +1143,13 @@ color: #212353;
 
 
 }
-
 h1.footer__support {
     /* Support Sign up Guide Reports Q&A */
 
 position: absolute;
-width: 66px;
-height: 190px;
-left: 931px;
-top: 4071px;
+width: 4%;
+left: 65%;
+top: 580%;
 
 font-family: Avenir;
 font-style: normal;
@@ -1030,326 +1163,57 @@ color: #212353;
 
 
 }
-h1.testimonials__title{
- /* Testimonials */
+div.footer__dota {
+    /* Ellipse 47 */
 
 position: absolute;
-width: 405px;
-height: 52px;
-left: 235px;
-top: 2875px;
-
-font-family: Helvetica;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 130%;
-/* identical to box height, or 52px */
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-
-
-
-}
-
-div.testimonials__carda {
-    /* Rectangle 35 */
-
-position: absolute;
-width: 645px;
-height: 330px;
-left: 235px;
-top: 3038px;
-
-background: #FFFFFF;
-box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
-border-radius: 20px;
-
-
-box-shadow: 5px 20px #8a56db;
-
-}
-h1.testimonials__carda__content {
-    /* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla. */
-
-position: absolute;
-width: 385px;
-height: 130px;
-left: 425px;
-top: 3188px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 180%;
-/* or 32px */
-
-/* 1 */
-color: #4B5D68;
-
-
-}
-
-div.testimonials__cardb {
-    /* Rectangle 37 */
-
-position: absolute;
-width: 350px;
-height: 330px;
-left: 900px;
-top: 3038px;
-
-background: linear-gradient(-0.25turn, #9C69E2 9.75%, #FFFFFF 100%);
-/* 3 */
-border: 1px solid #9C69E2;
-box-sizing: border-box;
-border-radius: 20px;
-box-shadow: 5px 20px #8a56db;
-
-}
-
-h1.testimonials__carda__name {
-    /* John Fang */
-
-position: absolute;
-width: 170px;
-height: 29px;
-left: 425px;
-top: 3118px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 160%;
-/* identical to box height, or 29px */
-display: flex;
-align-items: center;
-letter-spacing: 0.005em;
+width: 4%;
+height: 8%;
+left: 80%;
+top: 580%;
 
 /* 2 */
-color: #212353;
-
-
+background: #212353;
+opacity: 0.1;
+border-radius: 50px;
 }
-h1.testimonials__carda__site {
-    /* wordfaang.com */
+div.footer__dotb {
+    /* Ellipse 47 */
 
 position: absolute;
-width: 101px;
-height: 22px;
-left: 425px;
-top: 3147px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 160%;
-/* or 22px */
-display: flex;
-align-items: center;
-letter-spacing: 0.01em;
-
-/* 3 */
-color: #9C69E2;
-
-
-}
-div.testimonials__carda__image {
-    /* Ellipse 76 */
-
-position: absolute;
-width: 90px;
-height: 90px;
-left: 300px;
-top: 3098px;
-
-background-image: url("propic.png");
-
-}
-div.testimonials__cardb__image {
-/* Ellipse 76 */
-
-position: absolute;
-width: 90px;
-height: 90px;
-left: 950px;
-top: 3093px;
-background-image: url("propicb.png");
-
-}
-h1.testimonials__cardb__content {
-    /* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor */
-
-position: absolute;
-width: 180px;
-height: 130px;
-left: 1070px;
-top: 3183px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 180%;
-/* or 32px */
-
-/* 1 */
-color: #4B5D68;
-
-
-}
-h1.testimonials__cardb__site {
-    /* UX Engineer */
-
-position: absolute;
-width: 82px;
-height: 22px;
-left: 1070px;
-top: 3142px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 160%;
-/* or 22px */
-display: flex;
-align-items: center;
-letter-spacing: 0.01em;
-
-/* 3 */
-color: #9C69E2;
-
-
-}
-h1.testimonials__cardb__name {
-    /* Jeny Doe */
-
-position: absolute;
-width: 170px;
-height: 29px;
-left: 1070px;
-top: 3113px;
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 160%;
-/* identical to box height, or 29px */
-display: flex;
-align-items: center;
-letter-spacing: 0.005em;
+width: 4%;
+height: 8%;
+left: 85%;
+top: 580%;
 
 /* 2 */
-color: #212353;
-
-
-}
-div.testimonials__dota {
-    /* Ellipse 72 */
-
-position: absolute;
-width: 10px;
-height: 10px;
-left: 335px;
-top: 3428px;
-
-/* 4 */
-background: #F063B8;
+background: #212353;
+opacity: 0.1;
 border-radius: 50px;
 }
-div.testimonials__dotb {
-    /* Ellipse 72 */
-
-/* Ellipse 73 */
+div.footer__dotc {
+    /* Ellipse 47 */
 
 position: absolute;
-width: 5px;
-height: 5px;
-left: 355px;
-top: 3431px;
+width: 4%;
+height: 8%;
+left: 90%;
+top: 580%;
 
-background: #FFFFFF;
-
+/* 2 */
+background: #212353;
+opacity: 0.1;
 border-radius: 50px;
 }
-div.testimonials__dotc {
-    /* Ellipse 74 */
-
-position: absolute;
-width: 5px;
-height: 5px;
-left: 370px;
-top: 3431px;
-border-radius: 50px;
-background: #FFFFFF;
-
-}
-div.testimonials__dotd {
-    /* Ellipse 75 */
-
-position: absolute;
-width: 5px;
-height: 5px;
-left: 385px;
-top: 3431px;
-border-radius: 50px;
-background: #FFFFFF;
-
-}
-div.testimonials__arrowa {
-/* Vector 74 */
-
-position: absolute;
-width: 80px;
-height: 100px;
-left: 1000px;
-top: 3400px;
-
-
-background-image: url("warrow.png");
-}
-div.testimonials__arrowb {
-/* Polygon 1 */
-
-position: absolute;
-width: 80px;
-height: 100px;
-left: 1080px;
-top: 3400px;
-opacity: 20%;
-background-image: url("warrowb.png");
-}
-div.footer__arrow {
-/* Vector 74 */
-
-position: absolute;
-width: 100px;
-height: 100px;
-left: 1275px;
-top: 3760px;
-
-
-background-image: url("point.png");
-}
-
 div.header {
     box-sizing: border-box;
 }
-
 body {
     background-color: white;
-  }
-  
+  } 
   @media only screen and (max-width: 1190px) {
     body {
-      background-color: lightblue;
+      background-color: rgba(255, 0, 0, 0.541);
     }
   }
 
