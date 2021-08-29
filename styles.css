@@ -9,7 +9,8 @@ top: 11%;
 
 background: #9C69E2;
 border-radius: 15px;
-
+background-repeat: no-repeat;
+background-size: contain;
 }
 div.header__pink {
 /* Rectangle 33 */
@@ -22,7 +23,8 @@ top: 9.5%;
 
 background: #F063B8;
 border-radius: 20px;
-
+background-repeat: no-repeat;
+background-size: contain;
 
 }
 h1.header__about {
@@ -34,13 +36,14 @@ top: 8%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
+font-size: 1vw;
 line-height: 160%;
 /* or 26px */
 
 /* 2 */
 color: #212353;
-
+background-repeat: no-repeat;
+background-size: contain;
 }
 h1.header__help {
 /* Help */
@@ -50,7 +53,7 @@ top: 8%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 1vw;
 line-height: 160%;
 /* identical to box height, or 26px */
 
@@ -70,7 +73,7 @@ top: 8%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 1vw;
 line-height: 160%;
 /* identical to box height, or 26px */
 
@@ -88,7 +91,7 @@ top: 8%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 1vw;
 line-height: 160%;
 /* identical to box height, or 26px */
 
@@ -105,7 +108,7 @@ h1.header__request {
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 1vw;
     line-height: 160%;
     /* identical to box height, or 26px */
     display: flex;
@@ -126,6 +129,8 @@ div.header__button {
     background: #FFFFFF;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
     
 }
 div.header__point {
@@ -150,13 +155,16 @@ div.main__graphic {
     left: 38%;
     top: 40%;
     background-image: url("graphlady.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  
 }
 h1.main__title {
     position: absolute;
     left: 10%;
     top: 25%;
     font-family: Helvetica;
-    font-size: 80px;
+    font-size: 5vw;
     font-style: normal;
     font-weight: 700;
     line-height: 88px;
@@ -164,8 +172,8 @@ h1.main__title {
     text-align: left;
     width: 40%;
     color: #222453; 
-    
-    
+    padding: 15px;
+   
 }
 h1.main__content {
     /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
@@ -176,10 +184,13 @@ h1.main__content {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.15vw;
     line-height: 160%;
     /* or 29px */
-    
+    padding: 15px;
+    box-sizing: border-box;
+    background-size: contain;
+    overflow-wrap: break-word;
     /* 1 */
     color: #4B5D68; 
 }
@@ -225,7 +236,7 @@ h1.bank__title {
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 3vw;
     line-height: 130%;
     /* or 52px */
     display: flex;
@@ -246,7 +257,7 @@ h1.bank__content {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.25vw;
     line-height: 160%;
     /* or 29px */
     
@@ -277,7 +288,8 @@ div.bank__image {
     height: 100%;
     left: 7%;
     top: 120%;
-    
+    background-repeat: no-repeat;
+    background-size: contain;
     
     
     background-image: url("busybody.png");
@@ -291,7 +303,7 @@ top: 220%;
 font-family: Helvetica;
 font-style: normal;
 font-weight: bold;
-font-size: 40px;
+font-size: 3vw;
 line-height: 130%;
 /* identical to box height, or 52px */
 display: flex;
@@ -308,7 +320,7 @@ top: 240%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 500;
-font-size: 18px;
+font-size: 1.25vw;
 line-height: 160%;
 /* or 29px */
 display: flex;
@@ -325,7 +337,7 @@ h1.search__title {
     font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 2vw;
     line-height: 130%;
     /* or 31px */
     display: flex;
@@ -341,7 +353,7 @@ h1.search__content {
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1.1vw;
     line-height: 160%;
     /* or 26px */
     
@@ -356,15 +368,16 @@ div.search__image {
     left: 5%;
     top: 280%;
     background-image: url("sdpic.png");
-    
+    background-repeat: no-repeat;
+    background-size: contain;
     }
 div.search__background {
         /* Rectangle 39 */  
     position: absolute;
     width: 30%;
-    height: 50%;
+    height: 55%;
     left: 15%;
-    top: 265%;
+    top: 267%;
     /* 5 */
     background: #68C9BA;
     opacity: 0.1;
@@ -379,7 +392,7 @@ h1.access__title {
     font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 2vw;
     line-height: 130%;
     /* or 31px */
     display: flex;
@@ -397,7 +410,7 @@ h1.access__content{
             font-family: Avenir;
             font-style: normal;
             font-weight: normal;
-            font-size: 16px;
+            font-size: 1.1vw;
             line-height: 160%;
             /* or 26px */
             
@@ -412,9 +425,9 @@ div.access__background {
         
         position: absolute;
         width: 30%;
-        height: 50%;
+        height: 55%;
         left: 60%;
-        top: 265%;
+        top: 267%;
         
         /* 3 */
         background: #9C69E2;
@@ -427,13 +440,14 @@ div.access__image {
         /* image4 */
         
         position: absolute;
-        width: 231px;
-        height: 185px;
+        width: 16%;
+        height: 30%;
         left: 50%;
-        top: 1944px;
-        
+        top: 280%;
         
         background-image: url("twofourpic.png");
+        background-repeat: no-repeat;
+        background-size: contain;
         
         }
 h1.print__title {
@@ -446,7 +460,7 @@ h1.print__title {
                 font-family: Helvetica;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 24px;
+                font-size: 2vw;
                 line-height: 130%;
                 /* or 31px */
                 display: flex;
@@ -467,7 +481,7 @@ h1.print__content {
                         font-family: Avenir;
                         font-style: normal;
                         font-weight: normal;
-                        font-size: 16px;
+                        font-size: 1.1vw;
                         line-height: 160%;
                         /* or 26px */
                         
@@ -484,15 +498,17 @@ div.print__image {
         left: 5%;
         top: 340%;
         background-image: url("printerpic.png");
+        background-repeat: no-repeat;
+        background-size: contain;
         }
 div.print__background {
             /* Rectangle 39 */
         
         position: absolute;
         width: 30%;
-        height: 50%;
+        height: 55%;
         left: 15%;
-        top: 325%;
+        top: 327%;
         /* 4 */
         background: #F063B8;
         opacity: 0.1;
@@ -510,7 +526,7 @@ h1.security__title {
                     font-family: Helvetica;
                     font-style: normal;
                     font-weight: normal;
-                    font-size: 24px;
+                    font-size: 2vw;
                     line-height: 130%;
                     /* or 31px */
                     display: flex;
@@ -531,7 +547,7 @@ h1.security__content {
                                 font-family: Avenir;
                                 font-style: normal;
                                 font-weight: normal;
-                                font-size: 16px;
+                                font-size: 1.1vw;
                                 line-height: 160%;
                                 /* or 26px */
                                 
@@ -549,16 +565,17 @@ div.security__image {
     left: 50%;
     top: 340%;                        
     background: url("lockpic.png");
-    
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 div.security__background {
     /* Rectangle 39 */
     
     position: absolute;
     width: 30%;
-    height: 50%;
+    height: 55%;
     left: 60%;
-    top: 325%;
+    top: 327%;
     
     /* Blue 2 */
     background: #2D9CDB;
@@ -588,7 +605,7 @@ h1.testimonials__title{
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.5vw;
     line-height: 130%;
     /* identical to box height, or 52px */
     display: flex;
@@ -619,7 +636,7 @@ h1.testimonials__carda__content {
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.25vw;
     line-height: 180%;
     /* or 32px */
                                 
@@ -639,7 +656,7 @@ h1.testimonials__carda__name {
         font-family: Avenir;
         font-style: normal;
         font-weight: 800;
-        font-size: 18px;
+        font-size: 1.25vw;
         line-height: 160%;
         /* identical to box height, or 29px */
         display: flex;
@@ -662,7 +679,7 @@ h1.testimonials__carda__site {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1vw;
     line-height: 160%;
     
     /* or 22px */
@@ -684,7 +701,8 @@ div.testimonials__carda__image {
         left: 22%;
         top: 435%;                        
         background-image: url("propic.png");
-                                
+        background-repeat: no-repeat;
+        background-size: contain;                      
                                 }
 div.testimonials__cardb {
     /* Rectangle 37 */
@@ -711,7 +729,8 @@ div.testimonials__cardb__image {
     left: 68%;
     top: 435%; 
     background-image: url("propicb.png");
-                                
+    background-repeat: no-repeat;
+    background-size: contain;                          
                                 }
 h1.testimonials__cardb__content {
 /* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor */
@@ -725,7 +744,7 @@ h1.testimonials__cardb__content {
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.25vw;
     line-height: 180%;
 /* or 32px */
                                 
@@ -746,7 +765,7 @@ h1.testimonials__cardb__site {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1vw;
     line-height: 160%;
     
     /* or 22px */
@@ -769,7 +788,7 @@ h1.testimonials__cardb__name {
         font-family: Avenir;
         font-style: normal;
         font-weight: 800;
-        font-size: 18px;
+        font-size: 1.25vw;
         line-height: 160%;
         /* identical to box height, or 29px */
         display: flex;
@@ -873,7 +892,7 @@ h1.footer__try {
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 3vw;
     line-height: 130%;
     /* identical to box height, or 52px */
     display: flex;
@@ -891,7 +910,7 @@ top: 545%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 500;
-font-size: 18px;
+font-size: 1.5vw;
 line-height: 160%;
 /* identical to box height, or 29px */
 
@@ -923,7 +942,7 @@ h1.footer__learn {
   font-family: Avenir;
   font-style: normal;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 1.25vw;
   line-height: 160%;
   /* identical to box height, or 29px */
   display: flex;
@@ -958,7 +977,7 @@ top: 535.5%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 900;
-font-size: 16px;
+font-size: 1.25vw;
 line-height: 160%;
 /* identical to box height, or 26px */
 display: flex;
@@ -1214,7 +1233,9 @@ body {
   @media only screen and (max-width: 1190px) {
     body {
       background-color: rgba(255, 0, 0, 0.541);
+    
     }
-  }
+   
+}
 
  
