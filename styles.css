@@ -1,3 +1,5 @@
+                                /* HEADER  */
+
 div.header__purple {
     /* Rectangle 32 */
 
@@ -138,15 +140,18 @@ div.header__point {
     
     position: absolute;
     width: 7%;
-    height: 100px;
-    left: 89%;
-    top: 40px;
+    height: 10%;
+    left: 88%;
+    top: 5%;
     
     box-sizing: border-box;
     
     
     background-image: url("point.png");
 }
+
+                                /* MAIN */
+
 div.main__graphic {
     /* image1 1 */
     position: absolute;
@@ -225,6 +230,9 @@ h1.main__learn {
     
     
 }
+
+                                /* BANK */
+
 h1.bank__title {
     /* We are a high-level data storage bank */
     position: absolute;
@@ -295,6 +303,9 @@ div.bank__image {
     background-image: url("busybody.png");
     
 }
+
+                                /* FEATURES */
+
 h1.features__title {
     /* Features */
 position: absolute;
@@ -329,6 +340,9 @@ text-align: center;
 /* 1 */
 color: #4B5D68;
     }
+
+                                /* SEARCH */
+
 h1.search__title {
     /* Search Data */
     position: absolute;
@@ -384,6 +398,9 @@ div.search__background {
     border-radius: 50px; 
     
     }
+
+                                /* ACCESS */
+
 h1.access__title {
     /* 24 Hours Access */
     position: absolute;
@@ -450,6 +467,9 @@ div.access__image {
         background-size: contain;
         
         }
+
+                                /* PRINT */
+
 h1.print__title {
                     /* Print Out */
                 
@@ -515,6 +535,9 @@ div.print__background {
         border-radius: 50px;
         
         }
+
+                                        /* SECURITY */
+
 h1.security__title {
                         /* Security Code */
                     
@@ -583,6 +606,9 @@ div.security__background {
     border-radius: 20px;
     
 }
+
+                                        /* TESTIMONIALS */
+
 div.testimonials__background { 
     /* Rectangle 35 */ 
 position: absolute;
@@ -871,6 +897,9 @@ top: 477%;
 opacity: 20%;
 background-image: url("warrowb.png");
                                 }
+
+                                        /* FOOTER */
+
 div.footer__line {
 
 /* Rectangle 41 */
@@ -995,7 +1024,7 @@ div.footer__arrow {
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 88.5%;
+    left: 89%;
     top: 533%;
     
     
@@ -1036,7 +1065,7 @@ top: 567%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 800;
-font-size: 20px;
+font-size: 2vw;
 line-height: 160%;
 /* or 32px */
 
@@ -1050,12 +1079,12 @@ h1.footer__about {
 
 position: absolute;
 left: 50%;
-top: 567%;
+top: 568%;
 
 font-family: Avenir;
 font-style: normal;
 font-weight: 900;
-font-size: 16px;
+font-size: 1.5vw;
 line-height: 160%;
 /* or 26px */
 
@@ -1069,11 +1098,11 @@ h1.footer__help {
 
 position: absolute;
 left: 65%;
-top: 567%;
+top: 568%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 900;
-font-size: 16px;
+font-size: 1.5vw;
 line-height: 160%;
 /* or 26px */
 
@@ -1087,12 +1116,12 @@ h1.footer__social {
 
 position: absolute;
 left: 80%;
-top: 567%;
+top: 568%;
 
 font-family: Avenir;
 font-style: normal;
 font-weight: 900;
-font-size: 16px;
+font-size: 1.5vw;
 line-height: 160%;
 /* or 26px */
 
@@ -1105,13 +1134,13 @@ h1.footer__warehouse {
     /* Warehouse Society, 234 Bahagia Ave Street PRBW 29281 */
 
 position: absolute;
-width: 17%;
+width: 15%;
 left: 16%;
 top: 580%;
 font-family: Avenir;
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 1vw;
 line-height: 180%;
 /* or 29px */
 letter-spacing: 0.01em;
@@ -1132,7 +1161,7 @@ top: 592%;
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
+font-size: 1vw;
 line-height: 180%;
 /* or 29px */
 letter-spacing: 0.01em;
@@ -1153,7 +1182,7 @@ top: 580%;
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
+font-size: 1vw;
 line-height: 250%;
 /* or 40px */
 
@@ -1173,7 +1202,7 @@ top: 580%;
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
+font-size: 1vw;
 line-height: 250%;
 /* or 40px */
 
@@ -1224,18 +1253,1257 @@ background: #212353;
 opacity: 0.1;
 border-radius: 50px;
 }
-div.header {
-    box-sizing: border-box;
-}
+
 body {
-    background-color: white;
+    background-color: #f7fafd;
   } 
-  @media only screen and (max-width: 1190px) {
-    body {
-      background-color: rgba(255, 0, 0, 0.541);
+  @media only screen and (max-width: 800px) {
+   
+h1.header__request {
+    position: absolute;
+    left: 78%;
+    top: 4.25%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.5vw;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    /* 2 */
+    color: #212353;
+  }
+div.header__button {
+    /* Rectangle 26 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 20%;
+    height: 2.5%;
+    left: 75%;
+    top: 4%;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+div.header__point {
+    /* Polygon 1 */
+    
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 70%;
+    top: 5%;
+    
+    box-sizing: border-box;
+    
+    
+    background-image: url("point.png");
+}
+div.header__purple {
+    /* Rectangle 32 */
+
+position: absolute;
+width: 2.5%;
+height: 1%;
+left: 10%;
+top: 5%;
+
+background: #9C69E2;
+border-radius: 15px;
+background-repeat: no-repeat;
+background-size: contain;
+}
+div.header__pink {
+    /* Rectangle 33 */
+    
+    position: absolute;
+    width: 2.5%;
+    height: 2%;
+    left: 13%;
+    top: 4%;
+    
+    background: #F063B8;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
     
     }
-   
+h1.header__about {
+        /* About */
+    
+    position: absolute;
+    left: 25%;
+    top: 4%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2vw;
+    line-height: 160%;
+    /* or 26px */
+    
+    /* 2 */
+    color: #212353;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+h1.header__help {
+        /* Help */
+        position: absolute;
+        left: 35%;
+        top: 4.3%;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.5vw;
+        line-height: 160%;
+        /* identical to box height, or 26px */
+        
+        /* 1 */
+        color: #4B5D68;
+        
+        
+        
+        
+        }
+h1.header__features {
+            /* Features */
+        
+        position: absolute;
+        left: 40%;
+        top: 4.3%;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.5vw;
+        line-height: 160%;
+        /* identical to box height, or 26px */
+        
+        /* 1 */
+        color: #4B5D68;
+        
+        
+        }
+h1.header__signup {
+            /* Signup */
+        
+        position: absolute;
+        left: 48%;
+        top: 4.3%;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.5vw;
+        line-height: 160%;
+        /* identical to box height, or 26px */
+        
+        /* 1 */
+        color: #4B5D68;
+        
+        
+        }
+
+                                    /* MAIN */
+
+h1.main__title {
+            position: absolute;
+            left: 6%;
+            top: 8%;
+            font-family: Helvetica;
+            font-size: 7.3vw;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 60%;
+            color: #222453; 
+            padding: 15px;
+           
+        }
+h1.main__content {
+            /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
+            position: absolute;
+            width: 48%;
+            left: 6%;
+            top: 20%;
+            font-family: Avenir;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.7vw;
+            line-height: 160%;
+            /* or 29px */
+            padding: 15px;
+            box-sizing: border-box;
+            background-size: contain;
+            overflow-wrap: break-word;
+            /* 1 */
+            color: #4B5D68; 
+        }
+div.main__graphic {
+            /* image1 1 */
+            position: absolute;
+            width: 62%;
+            height: 65%;
+            left: 48%;
+            top: 19%;
+            background-image: url("graphlady.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+          
+        }
+div.main__button {
+            /* Rectangle 26 */
+        position: absolute;
+        width: 15%;
+        height: 2.5%;
+        left: 12%;
+        top: 30%;
+        /* 3 */
+        background: #9C69E2;
+        border-radius: 50px;
+        
+        }
+h1.main__learn {
+            /* Learn more */
+            position: absolute;
+            left: 14.5%;
+            top: 30%;
+            font-family: Avenir;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 7px;
+            line-height: 160%;
+            /* identical to box height, or 29px */
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+            color: #ffffff;
+            
+            
+        }
+
+                                    /* BANK */
+
+div.bank__background {
+            /* Rectangle 34 */
+            position: absolute;
+            width: 90%;
+            height: 23%;
+            left: 10%;
+            top: 40%;
+            background: rgba(240, 99, 184, 0.15);
+            border-radius: 25px;   
+        }  
+div.bank__image {
+    
+    
+            /* image2  */
+            
+            position: absolute;
+            width: 65%;
+            height: 100%;
+            left: 3%;
+            top: 36%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            
+            
+            background-image: url("busybody.png");
+            
+        }
+h1.bank__content {
+            /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
+            
+            /* The place to store various data that you can access at any time through the internet and where you can carry it. This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse. */
+            position: absolute;
+            width: 40%;
+            left: 55%;
+            top: 49%;
+            font-family: Avenir;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.75vw;
+            line-height: 160%;
+            /* or 29px */
+            
+            /* 1 */
+            color: #4B5D68;
+            
+            
+            
+            
+        }
+h1.bank__title {
+            /* We are a high-level data storage bank */
+            position: absolute;
+            width: 43%;
+            left: 55%;
+            top: 43%;
+            
+            /* SubHeadline */
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 3.5vw;
+            line-height: 130%;
+            /* or 52px */
+            display: flex;
+            align-items: center;
+            
+            color: #212353;
+            
+            
+        }
+
+                                    /* FEATURE */
+
+h1.features__title {
+            /* Features */
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3vw;
+        line-height: 130%;
+        /* identical to box height, or 52px */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #212353;
+        }
+h1.features__content {
+            /* Some of the features and advantages that we provide for those of you who store data in this Data Warehouse. */
+            position: absolute;
+            width: 40%;
+            left: 35%;
+            top: 75%;
+            font-family: Avenir;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.25vw;
+            line-height: 160%;
+            /* or 29px */
+            display: flex;
+            align-items: center;
+            text-align: center;
+            /* 1 */
+            color: #4B5D68;
+                }
+
+                                    /* SEARCH */
+
+div.search__background {
+    /* Rectangle 39 */  
+    position: absolute;
+    width: 40%;
+    height: 17%;
+    left: 10%;
+    top: 80%;
+    /* 5 */
+    background: #68C9BA;
+    opacity: 0.1;
+    border-radius: 20px; 
+                
+                }
+h1.search__title {
+                    /* Search Data */
+                    position: absolute;
+                    left: 10%%;
+                    top: 83%;
+                    font-family: Helvetica;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 2vw;
+                    line-height: 130%;
+                    /* or 31px */
+                    display: flex;
+                    align-items: center;
+                    color: #212353;
+                    }
+h1.search__content {
+                        /* Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time. */
+                            position: absolute;
+                            width: 15.5%;
+                            left: 25%;
+                            top: 87%;
+                            font-family: Avenir;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 1.1vw;
+                            line-height: 160%;
+                            /* or 26px */
+                            
+                            /* 1 */
+                            color: #4B5D68;
+                            }
+div.search__image {
+     /* image3 1 */
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    left: 3%;
+    top: 83%;
+    background-image: url("sdpic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+                            }
+
+                                    /* ACCESS */
+
+h1.access__title {
+        /* 24 Hours Access */
+        position: absolute;
+        left: 76%;
+        top: 83%;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2vw;
+        line-height: 130%;
+        /* or 31px */
+        display: flex;
+        align-items: center;
+        color: #212353;
+                }
+h1.access__content{
+        /* Access is given 24 hours a full morning to night and meet again in the morning, giving you comfort when you need data when urgent. */
+                                                
+    position: absolute;
+    width: 15.5%;
+    left: 76%;
+    top: 87%;
+                                                
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1vw;
+    line-height: 160%;
+    /* or 26px */
+                                                
+    /* 1 */
+    color: #4B5D68;
+                                                
+                                                
+                }
+div.access__background {
+ 
+/* Rectangle 39 */
+                                                    
+position: absolute;
+width: 40%;
+height: 17%;
+left: 60%;
+top: 80%;
+                                                    
+/* 3 */
+background: #9C69E2;
+opacity: 0.1;
+border-radius: 20px;
+                                                    
+                                                    
+                    }
+div.access__image {
+    /* image4 */
+                        
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    left: 55%;
+    top: 83%;                    
+    background-image: url("twofourpic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+                        
+                        }
+
+                                    /* IMAGE */
+
+h1.print__title {
+    /* Print Out */
+                        
+    position: absolute;
+    left: 27%;
+    top: 103%;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 130%;
+    /* or 31px */
+    display: flex;
+    align-items: center;
+    color: #212353;
+                        
+                        
+                        }
+h1.print__content {
+    /* Print out service gives you convenience if someday you need print data, just edit it all and just print it. */
+                        
+    position: absolute;
+    width: 15.5%;
+    left: 27%;
+    top: 106%;      
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1vw;
+    line-height: 160%;
+    /* or 26px */
+                        
+    /* 1 */
+    color: #4B5D68;
+                        
+                        
+                        }
+div.print__background {
+    /* Rectangle 39 */
+                        
+    position: absolute;
+    width: 40%;
+    height: 17%;
+    left: 10%;
+    top: 100%;
+    /* 4 */
+    background: #F063B8;
+    opacity: 0.1;
+    border-radius: 20px;
+                        
+                        }
+div.print__image {
+    /* image5 1 */
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    left: 5%;
+    top: 105%;
+    background-image: url("printerpic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+                            }
+
+                                    /* SECURITY */
+
+h1.security__title {
+    /* Security Code */
+                            
+    position: absolute;
+    width: 15.5%;
+    left: 76%;
+    top: 103%;                       
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 130%;
+    /* or 31px */
+    display: flex;
+    align-items: center;
+    color: #212353;
+                            
+                            
+                            }
+h1.security__content {
+
+    /* Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password that you created, so only you can open the file. */
+                                        
+    position: absolute;
+    width: 15.5%;
+    left: 76%;
+    top: 106%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1vw;
+    line-height: 160%;
+    /* or 26px */
+                                        
+    /* 1 */
+    color: #4B5D68;
+                                        
+                                        
+                                        }
+div.security__image {
+            /* image6 1 */
+                                            
+            position: absolute;
+            width: 16%;
+            height: 30%;
+            left: 50%;
+            top: 105%;                        
+            background: url("lockpic.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+div.security__background {
+            /* Rectangle 39 */
+            
+            position: absolute;
+            width: 40%;
+            height: 17%;
+            left: 60%;
+            top: 100%;
+            
+            /* Blue 2 */
+            background: #2D9CDB;
+            opacity: 0.1;
+            border-radius: 20px;
+            
+        }
+
+                                    /* TESTIMONIALS */
+
+div.testimonials__background { 
+            /* Rectangle 35 */ 
+        position: absolute;
+        width: 90%;
+        height: 25%;
+        left: 10%;
+        top: 125%;
+        /* 4 */
+        background: #9d69e2;
+        border-radius: 20px;
+        }
+h1.testimonials__title{
+            /* Testimonials */
+                                        
+            position: absolute;
+            width: 10%;
+            height: 10%;
+            left: 18%;
+            top: 125%;                          
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 2.5vw;
+            line-height: 130%;
+            /* identical to box height, or 52px */
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;                            
+                                        }
+div.testimonials__carda {
+/* Rectangle 35 */
+                                                                        
+position: absolute;
+width: 40%;
+height: 10%;
+left: 18%;
+top: 135%;                  
+background: #FFFFFF;
+box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+border-radius: 20px;
+box-shadow: 5px 20px #8a56db;
+                                                                        }
+h1.testimonials__carda__content {
+/* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla. */
+                                                                        
+position: absolute;
+width: 26.5%;
+height: 50%;
+left: 27%;
+top: 139%;                           
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 1.25vw;
+line-height: 180%;
+/* or 32px */
+                                                                        
+/* 1 */
+color: #4B5D68;
+                                                                        
+                                                                        
+                                                                        }
+h1.testimonials__carda__name {
+/* John Fang */
+                                                                                                        
+position: absolute;
+width: 10%;
+height: 5%;
+left: 27%;
+top: 135%;
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 1.25vw;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+                                                                                                        
+/* 2 */
+color: #212353;
+                                                                                                        
+                                                                                                        
+                                                                        }
+h1.testimonials__carda__site {
+/* wordfaang.com */
+                                                                                                        
+position: absolute;
+width: 10%;
+height: 5%;
+left: 27%;
+top: 136%;
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 1vw;
+line-height: 160%;
+                                            
+/* or 22px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+                                                                                                        
+/* 3 */
+color: #9C69E2;
+                                                                                                        
+                                                                                                        
+                                        }
+div.testimonials__carda__image {
+/* Ellipse 76 */
+
+position: absolute;
+width: 6.3%;
+height: 13%;
+left: 20%;
+top: 137%;                        
+background-image: url("propic.png");
+background-repeat: no-repeat;
+background-size: contain;                      
+                                                                        }
+div.testimonials__cardb {
+/* Rectangle 37 */
+                                                                        
+position: absolute;
+width: 30%;
+height: 10%;
+left: 65%;
+top: 135%; 
+background: linear-gradient(-0.25turn, #9C69E2 9.75%, #FFFFFF 100%);
+/* 3 */
+border: 1px solid #9C69E2;
+box-sizing: border-box;
+border-radius: 20px;
+box-shadow: 5px 20px #8a56db;
+
+                                                                        }
+div.testimonials__cardb__image {
+/* Ellipse 76 */
+                                                                        
+position: absolute;
+width: 6.3%;
+height: 13%;
+left: 68%;
+top: 137%; 
+background-image: url("propicb.png");
+background-repeat: no-repeat;
+background-size: contain;                          
+                                                                        }
+h1.testimonials__cardb__content {
+/* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor */
+                                                                        
+position: absolute;
+width: 13%;
+height: 50%;
+left: 77%;
+top: 139%;  
+                                                                        
+                                            font-family: Avenir;
+                                            font-style: normal;
+                                            font-weight: normal;
+                                            font-size: 1.25vw;
+                                            line-height: 180%;
+                                        /* or 32px */
+                                                                        
+                                        /* 1 */
+                                            color: #4B5D68;
+                                                                        
+                                                                        
+                                                                        }
+h1.testimonials__cardb__site {
+                                            /* UX Engineer */
+                                                                        
+                                            position: absolute;
+                                            width: 10%;
+                                            height: 5%;
+                                            left: 77%;
+                                            top: 136%;
+                                                                        
+                                            font-family: Avenir;
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 1vw;
+                                            line-height: 160%;
+                                            
+                                            /* or 22px */
+                                            display: flex;
+                                            align-items: center;
+                                            letter-spacing: 0.01em;
+                                                                        
+                                            /* 3 */
+                                            color: #9C69E2;
+                                                                        }
+h1.testimonials__cardb__name {
+/* Jeny Doe */
+                                                                        
+position: absolute;
+width: 10%;
+height: 5%;
+left: 77%;
+top: 135%;
+                                                                        
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 1.25vw;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+                                                                        
+/* 2 */
+color: #212353;
+                                                                        
+                                                                        
+                                                                        }
+div.testimonials__dota {
+/* Ellipse 72 */
+                                                                        
+position: absolute;
+width: 2.5%;
+height: 1%;
+left: 18%;
+top: 147%; 
+                                                                        
+/* 4 */
+background: #F063B8;
+border-radius: 50px;
+                                                                        }
+div.testimonials__dotb {                          
+/* Ellipse 73 */
+                                                                        
+position: absolute;
+width: 1%;
+height: .5%;
+left: 23%;
+top: 147.5%; 
+background: #FFFFFF;
+border-radius: 50px;
+                                                                        }
+div.testimonials__dotc {
+/* Ellipse 74 */
+                                                                        
+position: absolute;
+width: 1%;
+height: .5%;
+left: 25%;
+top: 147.5%; 
+border-radius: 50px;
+background: #FFFFFF;
+                                                                        
+                                                                        }
+div.testimonials__dotd {
+/* Ellipse 75 */
+                                                                        
+position: absolute;
+width: 1%;
+height: .5%;
+left: 27%;
+top: 147.5%; 
+border-radius: 50px;
+background: #FFFFFF;
+
+                                                                        }
+div.testimonials__arrowa {
+/* Vector 74 */
+                                                                        
+position: absolute;
+width: 25%;
+height: 10%;
+left: 60%;
+top: 142%;                    
+background-image: url("warrow.png");
+                                                                        }
+div.testimonials__arrowb {
+/* Polygon 1 */
+                                                                        
+position: absolute;
+width: 25%;
+height: 10%;
+left: 75%;
+top: 142%; 
+opacity: 20%;
+background-image: url("warrowb.png");
+                                                                        }
+
+                                    /* FOOTER */
+                                                                        
+div.footer__line {
+
+/* Rectangle 41 */
+position: absolute;
+width: 100%;
+height: .25%;
+top: 160%;
+/* 3 */
+background: #9C69E2;
+opacity: 0.2;
+
+                                                                            }
+h1.footer__try {
+/* Try for free! */
+                                                                                
+position: absolute;
+left: 16%;
+top: 165%;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 3vw;
+line-height: 130%;
+/* identical to box height, or 52px */
+display: flex;
+align-items: center;
+
+color: #212353;  
+                                                                            }
+h1.footer__limit {
+/* Get limited 1 week free try our features! */
+
+position: absolute;
+left: 16%;
+top: 168%;
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 1.5vw;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+/* 1 */
+color: #4B5D68;
+
+
+                                                                            }
+div.footer__buttona {
+/* Rectangle 26 */
+                                                                            
+position: absolute;
+width: 12%;
+height: 2%;
+left: 65%;
+top: 168%;
+                                                                            
+/* 4 */
+background: #F063B8;
+border-radius: 50px;
+                                                                            
+                                                                            }
+h1.footer__learn {
+/* Learn more */
+                                                                              
+position: absolute;
+left: 67.5%;
+top: 168.1%;
+font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 1.25vw;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+                                                                              
+                                                                                
+                                                                              }
+div.footer__buttonb {
+/* Rectangle 26 */
+                                                                            
+position: absolute;
+width: 12%;
+height: 2%;
+left: 80%;
+top: 168%;
+
+background: #FFFFFF;
+box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+border-radius: 50px;
+                                                                            
+                                                                            }
+h1.footer__demo {
+/* Request Demo */
+                                                                            
+position: absolute;
+left: 82%;
+top: 168.1%;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 1.25vw;
+line-height: 160%;
+/* identical to box height, or 26px */
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+                                                                            
+/* 2 */
+color: #212353;
+                                                                            
+                                                                            
+                                                                            }
+div.footer__arrow {
+                                                                                /* Vector 74 */
+                                                                                
+                                                                                position: absolute;
+                                                                                width: 100px;
+                                                                                height: 100px;
+                                                                                left: 89%;
+                                                                                top: 170%;
+                                                                                
+                                                                                
+                                                                                background-image: url("point.png");
+                                                                                }
+div.footer__logoa {
+/* Rectangle 32 */
+                                                                            
+position: absolute;
+width: 2%;
+height: 1%;
+left: 16%;
+top: 175%;
+
+background: #9C69E2;
+border-radius: 20px;
+
+                                                                            }
+div.footer__logob {
+/* Rectangle 33 */
+
+position: absolute;
+width: 2%;
+height: 2%;
+left: 19%;
+top: 174%;
+
+background: #F063B8;
+border-radius: 20px;
+
 }
+h1.footer__data {
+/* DataWarehouse */
+                                                                            
+position: absolute;
+left: 23%;
+top: 174%;
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 2vw;
+line-height: 160%;
+/* or 32px */
+
+/* 2 */
+color: #212353;
+
+
+                                                                            }
+h1.footer__about {
+/* About */
+
+position: absolute;
+left: 50%;
+top: 174%;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 1.5vw;
+line-height: 160%;
+/* or 26px */
+                                                                            
+/* 2 */
+color: #212353;
+                                                                            
+                                                                            
+                                                                            }
+h1.footer__help {
+/* Help */
+
+position: absolute;
+left: 65%;
+top: 174%;
+font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 1.5vw;
+line-height: 160%;
+/* or 26px */
+
+/* 2 */
+color: #212353;
+
+
+                                                                            }
+h1.footer__social {
+                                                                                /* Social Media */
+
+position: absolute;
+left: 80%;
+top: 174%;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 1.5vw;
+line-height: 160%;
+/* or 26px */
+
+/* 2 */
+color: #212353;
+
+                                                                            }
+h1.footer__warehouse {
+/* Warehouse Society, 234 Bahagia Ave Street PRBW 29281 */
+
+position: absolute;
+width: 15%;
+left: 16%;
+top: 180%;
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 1vw;
+line-height: 180%;
+/* or 29px */
+letter-spacing: 0.01em;
+
+/* 2 */
+color: #212353;
+
+                                                                            
+                                                                            }
+                                                                            h1.footer__email {
+                                                                                /* info@warehouse.project 1-232-3434 (Main) */
+                                                                            
+                                                                            position: absolute;
+                                                                            width: 13%;
+                                                                            left: 16%;
+                                                                            top: 180%;
+                                                                            
+                                                                            font-family: Avenir;
+                                                                            font-style: normal;
+                                                                            font-weight: normal;
+                                                                            font-size: 1vw;
+                                                                            line-height: 180%;
+                                                                            /* or 29px */
+                                                                            letter-spacing: 0.01em;
+                                                                            
+                                                                            /* 2 */
+                                                                            color: #212353;
+                                                                            
+                                                                            
+                                                                            }
+                                                                            h1.footer__profile {
+                                                                                /* Profile Features Careers DW News */
+                                                                            
+                                                                            position: absolute;
+                                                                            width: 4%;
+                                                                            left: 50%;
+                                                                            top: 180%;
+                                                                            
+                                                                            font-family: Avenir;
+                                                                            font-style: normal;
+                                                                            font-weight: normal;
+                                                                            font-size: 1vw;
+                                                                            line-height: 250%;
+                                                                            /* or 40px */
+                                                                            
+                                                                            /* 2 */
+                                                                            color: #212353;
+                                                                            
+                                                                            
+                                                                            }
+                                                                            h1.footer__support {
+                                                                                /* Support Sign up Guide Reports Q&A */
+                                                                            
+                                                                            position: absolute;
+                                                                            width: 4%;
+                                                                            left: 65%;
+                                                                            top: 180%;
+                                                                            
+                                                                            font-family: Avenir;
+                                                                            font-style: normal;
+                                                                            font-weight: normal;
+                                                                            font-size: 1vw;
+                                                                            line-height: 250%;
+                                                                            /* or 40px */
+                                                                            
+                                                                            /* 2 */
+                                                                            color: #212353;
+                                                                            
+                                                                            
+                                                                            }
+                                                                            div.footer__dota {
+                                                                                /* Ellipse 47 */
+                                                                            
+                                                                            position: absolute;
+                                                                            width: 4%;
+                                                                            height: 2%;
+                                                                            left: 80%;
+                                                                            top: 180%;
+                                                                            
+                                                                            /* 2 */
+                                                                            background: #212353;
+                                                                            opacity: 0.1;
+                                                                            border-radius: 50px;
+                                                                            }
+                                                                            div.footer__dotb {
+                                                                                /* Ellipse 47 */
+                                                                            
+                                                                            position: absolute;
+                                                                            width: 4%;
+                                                                            height: 2%;
+                                                                            left: 85%;
+                                                                            top: 180%;
+                                                                            
+                                                                            /* 2 */
+                                                                            background: #212353;
+                                                                            opacity: 0.1;
+                                                                            border-radius: 50px;
+                                                                            }
+                                                                            div.footer__dotc {
+                                                                                /* Ellipse 47 */
+                                                                            
+                                                                            position: absolute;
+                                                                            width: 4%;
+                                                                            height: 2%;
+                                                                            left: 90%;
+                                                                            top: 180%;
+                                                                            
+                                                                            /* 2 */
+                                                                            background: #212353;
+                                                                            opacity: 0.1;
+                                                                            border-radius: 50px;
+                                                                            }
+
+}
+
+
 
  
