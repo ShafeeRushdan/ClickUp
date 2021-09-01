@@ -232,7 +232,7 @@ h1.main__learn {
   color: #FFFFFF;
 }
 
-/* BANK */
+                                /* BANK */
 h1.bank__title {
   /* We are a high-level data storage bank */
   position: absolute;
@@ -295,7 +295,7 @@ div.bank__image {
   background-image: url("busybody.png");
 }
 
-/* FEATURES */
+                                /* FEATURES */
 h1.features__title {
   /* Features */
   position: absolute;
@@ -340,7 +340,7 @@ h1.features__content {
   color: #4B5D68;
 }
 
-/* SEARCH */
+                                /* SEARCH */
 h1.search__title {
   /* Search Data */
   position: absolute;
@@ -402,7 +402,7 @@ div.search__background {
   border-radius: 50px;
 }
 
-/* ACCESS */
+                                /* ACCESS */
 h1.access__title {
   /* 24 Hours Access */
   position: absolute;
@@ -464,7 +464,7 @@ div.access__image {
   background-size: contain;
 }
 
-/* PRINT */
+                                /* PRINT */
 h1.print__title {
   /* Print Out */
   position: absolute;
@@ -597,32 +597,25 @@ div.testimonials__background {
   height: 90%;
   left: 10%;
   top: 400%;
-  /* 4 */
+  
   background: #9d69e2;
   border-radius: 50px;
-}
-
-h1.testimonials__title {
-  /* Testimonials */
-  position: absolute;
-  width: 10%;
-  height: 10%;
-  left: 18%;
-  top: 405%;
+ 
   font-family: Helvetica;
   font-style: normal;
   font-weight: bold;
   font-size: 2.5vw;
   line-height: 130%;
-  /* identical to box height, or 52px */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #FFFFFF;
+  padding: 200px 100px;
+
+  overflow-x: scroll;
+  
+  white-space: nowrap;
+
 }
+
+
 
 div.testimonials__carda {
   /* Rectangle 35 */
@@ -719,7 +712,7 @@ div.testimonials__carda__image {
 div.testimonials__cardb {
   /* Rectangle 37 */
   position: absolute;
-  width: 24%;
+  width: 50%;
   height: 50%;
   left: 65%;
   top: 425%;
@@ -731,6 +724,8 @@ div.testimonials__cardb {
   border-radius: 20px;
   -webkit-box-shadow: 5px 20px #8a56db;
           box-shadow: 5px 20px #8a56db;
+ 
+  overflow-x: scroll;
 }
 
 div.testimonials__cardb__image {
@@ -875,6 +870,55 @@ div.testimonials__arrowb {
   opacity: 20%;
   background-image: url("warrowb.png");
 }
+
+div.scrolling-wrapper {
+  overflow-x: scroll;
+  
+  white-space: nowrap;
+  
+  
+  
+}
+div.cardnew {
+    display: inline-block;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    -webkit-box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 20px #8a56db;
+    box-shadow: 5px 20px #8a56db;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25vw;
+    line-height: 180%;
+    /* or 32px */
+    /* 1 */
+    color: #4B5D68;
+  }
+  div.card{
+    display: inline-block;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    -webkit-box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+border-radius: 20px;
+-webkit-box-shadow: 5px 20px #8a56db;
+    box-shadow: 5px 20px #8a56db;
+  
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25vw;
+    line-height: 180%;
+    /* or 32px */
+    /* 1 */
+    color: #4B5D68;
+  }
 
 /* FOOTER */
 div.footer__line {
@@ -1784,11 +1828,8 @@ body {
   }
   h1.testimonials__carda__content {
     /* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla. */
-    position: absolute;
-    width: 26.5%;
-    height: 50%;
-    left: 27%;
-    top: 139%;
+  
+   
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
