@@ -499,6 +499,7 @@ h1.print__content {
   /* or 26px */
   /* 1 */
   color: #4B5D68;
+  
 }
 
 div.print__image {
@@ -593,9 +594,9 @@ div.security__background {
 div.testimonials__background {
   /* Rectangle 35 */
   position: absolute;
-  width: 80%;
-  height: 90%;
-  left: 10%;
+  width: 75%;
+  height: 75%;
+  left: 12.5%;
   top: 400%;
   
   background: #9d69e2;
@@ -607,8 +608,8 @@ div.testimonials__background {
   font-size: 2.5vw;
   line-height: 130%;
   color: #FFFFFF;
-  padding: 200px 100px;
-
+  
+padding: 50px 50px;
   overflow-x: scroll;
   
   white-space: nowrap;
@@ -630,6 +631,7 @@ div.testimonials__carda {
   border-radius: 20px;
   -webkit-box-shadow: 5px 20px #8a56db;
           box-shadow: 5px 20px #8a56db;
+  
 }
 
 h1.testimonials__carda__content {
@@ -702,9 +704,9 @@ div.testimonials__carda__image {
   position: absolute;
   width: 6.3%;
   height: 13%;
-  left: 22%;
-  top: 435%;
   background-image: url("propic.png");
+  top: 10%;
+  left: 5%;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -889,15 +891,23 @@ div.cardnew {
     border-radius: 20px;
     -webkit-box-shadow: 5px 20px #8a56db;
     box-shadow: 5px 20px #8a56db;
+    /* 1 */
+    color: #4B5D68;
+   
     
+  }
+  h2.whocares {
+    position: absolute;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
     font-size: 1.25vw;
     line-height: 180%;
-    /* or 32px */
-    /* 1 */
+    width:15.5%;
     color: #4B5D68;
+    text-align: justify;
+    padding: 100px 150px ;
+    
   }
   div.card{
     display: inline-block;
@@ -906,16 +916,10 @@ div.cardnew {
     height: 50%;
     -webkit-box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
     box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
-border-radius: 20px;
--webkit-box-shadow: 5px 20px #8a56db;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 20px #8a56db;
     box-shadow: 5px 20px #8a56db;
-  
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.25vw;
-    line-height: 180%;
-    /* or 32px */
+    text-align: justify;
     /* 1 */
     color: #4B5D68;
   }
@@ -1236,6 +1240,7 @@ body {
   background-color: #f7fafd;
 }
 
+/* 10101010101010101010101010101010101010101010101iphone */
 @media only screen and (max-width: 800px) {
   h1.header__request {
     position: absolute;
