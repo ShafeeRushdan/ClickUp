@@ -592,32 +592,44 @@ div.security__background {
 
 /* TESTIMONIALS */
 div.testimonials__background {
-  /* Rectangle 35 */
   position: absolute;
-  width: 75%;
-  height: 75%;
-  left: 12.5%;
+  width: 85%;
+  height: 85%;
+  left: 7.5%;
   top: 400%;
   
   background: #9d69e2;
   border-radius: 50px;
  
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 2.5vw;
-  line-height: 130%;
+ 
+  
   color: #FFFFFF;
   
-padding: 50px 50px;
+
   overflow-x: scroll;
   
   white-space: nowrap;
 
 }
+div.testimonials__cardcontainer {
+  /* Rectangle 35 */
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  left: 10%;
+  top: 425%;
+  
+  
+  
+ 
+  
+  
 
+  overflow-x: scroll;
+  
+  white-space: nowrap;
 
-
+}
 div.testimonials__carda {
   /* Rectangle 35 */
   position: absolute;
@@ -625,15 +637,10 @@ div.testimonials__carda {
   height: 50%;
   left: 18%;
   top: 425%;
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
-          box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
-  border-radius: 20px;
-  -webkit-box-shadow: 5px 20px #8a56db;
-          box-shadow: 5px 20px #8a56db;
+  
+  
   
 }
-
 h1.testimonials__carda__content {
   /* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla. */
   position: absolute;
@@ -650,29 +657,55 @@ h1.testimonials__carda__content {
   /* 1 */
   color: #4B5D68;
 }
-
-h1.testimonials__carda__name {
+h1.testimonials__card__name {
   /* John Fang */
-  position: absolute;
-  width: 10%;
-  height: 5%;
-  left: 30%;
-  top: 435%;
+  
   font-family: Avenir;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 1.25vw;
-  line-height: 160%;
-  /* identical to box height, or 29px */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.005em;
-  /* 2 */
+  font-size: 2vw;
   color: #212353;
+  
+}
+h1.testimonials__title {
+  /* Testimonials */
+
+position: absolute;
+
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 130%;
+/* identical to box height, or 52px */
+display: flex;
+align-items: center;
+
+color: white;
+
+
+}
+div.title__mover {
+  position: absolute;
+  top: 405%;
+  padding-left: 15%;
+
+}
+div.content__mover {
+  position: absolute;
+  top: 27%;
+  padding-left: 15%;
+  
+}
+div.name__mover {
+  position: absolute;
+  top: 9%;
+  padding-left: 15%;
+}
+
+div.site__mover {
+  position: absolute;
+  top: 17%;
+  padding-left: 100%;
 }
 
 h1.testimonials__carda__site {
@@ -680,29 +713,20 @@ h1.testimonials__carda__site {
   position: absolute;
   width: 10%;
   height: 5%;
-  left: 30%;
-  top: 440%;
+  left: 15%;
+  top: 14%;
   font-family: Avenir;
   font-style: normal;
   font-weight: 500;
-  font-size: 1vw;
+  font-size: .8vw;
   line-height: 160%;
-  /* or 22px */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.01em;
-  /* 3 */
+
   color: #9C69E2;
 }
-
 div.testimonials__carda__image {
   /* Ellipse 76 */
   position: absolute;
-  width: 6.3%;
+  width: 7%;
   height: 13%;
   background-image: url("propic.png");
   top: 10%;
@@ -733,10 +757,10 @@ div.testimonials__cardb {
 div.testimonials__cardb__image {
   /* Ellipse 76 */
   position: absolute;
-  width: 6.3%;
+  width: 7%;
   height: 13%;
-  left: 68%;
-  top: 435%;
+  left: 55%;
+  top: 10%;
   background-image: url("propicb.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -744,16 +768,11 @@ div.testimonials__cardb__image {
 
 h1.testimonials__cardb__content {
   /* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor */
-  position: absolute;
-  width: 12.5%;
-  height: 50%;
-  left: 75%;
-  top: 447%;
   font-family: Avenir;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.25vw;
-  line-height: 180%;
+  font-size: 1vw;
+  line-height: 10%;
   /* or 32px */
   /* 1 */
   color: #4B5D68;
@@ -812,8 +831,8 @@ div.testimonials__dota {
   position: absolute;
   width: 1%;
   height: 2%;
-  left: 18%;
-  top: 485%;
+  left: 10%;
+  top: 477%;
   /* 4 */
   background: #F063B8;
   border-radius: 50px;
@@ -824,8 +843,8 @@ div.testimonials__dotb {
   position: absolute;
   width: .5%;
   height: 1%;
-  left: 20%;
-  top: 485.5%;
+  left: 12%;
+  top: 477.75%;
   background: #FFFFFF;
   border-radius: 50px;
 }
@@ -835,8 +854,8 @@ div.testimonials__dotc {
   position: absolute;
   width: .5%;
   height: 1%;
-  left: 22%;
-  top: 485.5%;
+  left: 13%;
+  top: 477.75%;
   border-radius: 50px;
   background: #FFFFFF;
 }
@@ -846,8 +865,8 @@ div.testimonials__dotd {
   position: absolute;
   width: .5%;
   height: 1%;
-  left: 24%;
-  top: 485.5%;
+  left: 14%;
+  top: 477.75%;
   border-radius: 50px;
   background: #FFFFFF;
 }
@@ -857,8 +876,8 @@ div.testimonials__arrowa {
   position: absolute;
   width: 6%;
   height: 10%;
-  left: 70%;
-  top: 477%;
+  left: 75%;
+  top: 472%;
   background-image: url("warrow.png");
 }
 
@@ -867,8 +886,8 @@ div.testimonials__arrowb {
   position: absolute;
   width: 6%;
   height: 10%;
-  left: 76%;
-  top: 477%;
+  left: 81%;
+  top: 472%;
   opacity: 20%;
   background-image: url("warrowb.png");
 }
@@ -886,6 +905,7 @@ div.cardnew {
     background-color: white;
     width: 50%;
     height: 50%;
+
     -webkit-box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
     box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
     border-radius: 20px;
@@ -897,19 +917,20 @@ div.cardnew {
     
   }
   h2.whocares {
-    position: absolute;
+    
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.25vw;
-    line-height: 180%;
-    width:15.5%;
+    font-size: 1vw;
+    line-height: 100%;
+    width:5%;
     color: #4B5D68;
-    text-align: justify;
-    padding: 100px 150px ;
+    
+   
     
   }
   div.card{
+    
     display: inline-block;
     background-color: white;
     width: 50%;
@@ -919,7 +940,7 @@ div.cardnew {
     border-radius: 20px;
     -webkit-box-shadow: 5px 20px #8a56db;
     box-shadow: 5px 20px #8a56db;
-    text-align: justify;
+    
     /* 1 */
     color: #4B5D68;
   }
