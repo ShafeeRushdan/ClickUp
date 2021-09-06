@@ -5,8 +5,8 @@ $cloudBlue:#f7fafd;
 $grey: #4B5D68;
 $white: #ffff; 
 $fontBlue: #222453;
-$arrow-size: 1em;
-$arrow-border: 0.2em;
+$arrow-size: .5em;
+$arrow-border: 0.1em;
 
 @mixin position {
   position: absolute;
@@ -15,8 +15,7 @@ $arrow-border: 0.2em;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 @include position ();
-width: 12%;
-height: 9%;
+
 top: $top;
 left:$left;
 background-color: $pink;
@@ -28,7 +27,7 @@ font-style: normal;
 font-weight: 800;
 font-size: 16px;
 line-height: 160%;
-padding: 15px 32px;
+padding: 20px 35px;
 /* identical to box height, or 26px */
 display: -webkit-box;
 display: -ms-flexbox;
@@ -49,45 +48,22 @@ cursor: pointer;
 background: $purple;
 }
 }
-
-@charset "UTF-8";
-
-
-
-/* HEADER  */
-div.header__purple {
-  /* Rectangle 32 */
-  @include position ();
-  width: 1%;
-  height: 2%;
-  left: 10%;
-  top: 11%;
+@mixin purple__dot {
   background: $purple;
   border-radius: 15px;
   background-repeat: no-repeat;
   background-size: contain;
 }
-div.header__pink {
-  /* Rectangle 33 */
-  @include position ();
-  width: 1%;
-  height: 3.5%;
-  left: 11.5%;
-  top: 9.5%;
-  background: $pink;
-  border-radius: 20px;
-  background-repeat: no-repeat;
-  background-size: contain;
+@mixin pink__dot {
+    background: $pink;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-button.header__about {
-  /* About */
-  @include position ();
-  left: 25%;
-  top: 8%;
+@mixin about__button {
   font-family: Avenir;
   font-style: normal;
   font-weight: 800;
-  font-size: 1vw;
   line-height: 160%;
   /* or 26px */
   /* 2 */
@@ -100,11 +76,7 @@ button.header__about {
   &:hover{
     color: $pink;}
 }
-button.header__help {
-  /* Help */
-  @include position ();
-  left: 33%;
-  top: 8%;
+@mixin help__button {
   font-family: Avenir;
   font-style: normal;
   font-weight: 500;
@@ -118,52 +90,230 @@ button.header__help {
   cursor: pointer;
   &:hover{
     color: $pink;}
+}
+@mixin features__button {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  /* 1 */
+  color: $grey;
+  background: $cloudBlue;
+  border: 2px solid $cloudBlue;
+  cursor: pointer;
+  &:hover{
+    color: $pink;}
+}
+@mixin signup__button {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  /* 1 */
+  color: $grey;
+  background: $cloudBlue;
+  border: 2px solid $cloudBlue;
+  cursor: pointer;
+  &:hover{
+    color: $pink;}
+}
+@mixin main__graphic {
+  height: 65%;
+  width: 62%;
+  background-image: url("graphlady.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@mixin main__title {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+  color: $fontBlue;
+  padding: 15px;
+}
+@mixin bank__title {
+    /* SubHeadline */
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5vw;
+    line-height: 130%;
+    /* or 52px */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: $navy;
+}
+@mixin bank__image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("busybody.png");
+}
+@mixin bank__content {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  /* or 29px */
+  /* 1 */
+  color: $grey;
+}
+@mixin features__title {
+  font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 130%;
+    /* identical to box height, or 52px */
+    font-size: 3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: $navy;
+}
+@mixin features__content {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25vw;
+  line-height: 160%;
+  /* or 29px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  /* 1 */
+  color: $grey;
+}
+@mixin main__button {
+  background: $purple;
+  border-radius: 50px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  border-color: $white;
+  color: $white;
+  outline-style: none;
+  border-style: none;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  &:hover{
+    background: $pink;
+  }
+}
+@mixin main__content {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  /* or 29px */
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-size: contain;
+  overflow-wrap: break-word;
+  /* 1 */
+  color: $grey;
+}
+@mixin search__title {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vw;
+  line-height: 130%;
+  /* or 31px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: $navy;
+}
+@mixin testimonials__background {
+  background: #9d69e2;
+  color: $white;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+@charset "UTF-8";
+
+
+
+/* HEADER  */
+div.header__purple {
+  /* Rectangle 32 */
+  @include position ();
+  @include purple__dot();
+  width: 1%;
+  height: 2%;
+  left: 10%;
+  top: 11%;
+  
+}
+div.header__pink {
+  /* Rectangle 33 */
+  @include position ();
+  @include pink__dot();
+  width: 1%;
+  height: 3.5%;
+  left: 11.5%;
+  top: 9.5%;
+}
+button.header__about {
+  /* About */
+  @include position ();
+  @include about__button();
+  left: 20%;
+  top: 8%;
+  font-size: 1vw;
+}
+button.header__help {
+  /* Help */
+  @include position ();
+  @include help__button();
+  left: 27%;
+  top: 8%;
+ 
 }
 button.header__features {
   /* Features */
   @include position ();
-  left: 40%;
+  @include features__button();
+  left: 32%;
   top: 8%;
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1vw;
-  line-height: 160%;
-  /* identical to box height, or 26px */
-  /* 1 */
-  color: $grey;
-  background: $cloudBlue;
-  border: 2px solid $cloudBlue;
-  cursor: pointer;
-  &:hover{
-    color: $pink;}
+ 
 }
 button.header__signup {
   /* Signup */
   @include position ();
-  left: 50%;
+  @include signup__button();
+  left: 40%;
   top: 8%;
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1vw;
-  line-height: 160%;
-  /* identical to box height, or 26px */
-  /* 1 */
-  color: $grey;
-  background: $cloudBlue;
-  border: 2px solid $cloudBlue;
-  cursor: pointer;
-  &:hover{
-    color: $pink;}
+ 
 }
 button.header__button {
   /* Rectangle 26 */
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   @include position ();
-  width: 21%;
-  height: 9%;
   left: 75%;
   top: 7%;
   background-color: $white;
@@ -173,9 +323,10 @@ button.header__button {
   font-family: Avenir;
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 1vw;
   line-height: 160%;
-  padding: 15px 32px;
+  padding-left: 1%;
+  
   /* identical to box height, or 26px */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -193,7 +344,8 @@ button.header__button {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
   &:hover{
-    background: $pink;
+    background: $purple;
+    color: $cloudBlue;
   }
 }
 
@@ -219,7 +371,6 @@ button.header__button {
   }
   &:before {
     top: 50%;
-    right: $arrow-size;
     width: $arrow-size;
     height: $arrow-size;
     transform-origin: 50% 50%;
@@ -231,7 +382,7 @@ button.header__button {
   
   &:after {
     top: 50%;
-    right: 1em;
+    right: 38%;
     width: $arrow-size * 1.3;
     height: $arrow-border;
     transform:  translate(0, -($arrow-border / 2));
@@ -240,9 +391,11 @@ button.header__button {
   &:hover {
     &:before {
       transform:  translate(0.5em, -($arrow-size / 2)) rotate(45deg);
+      box-shadow: inset -#{$arrow-border} $arrow-border 0 0 $pink;
     }
     &:after {
       transform:  translate(0.5em, -($arrow-border / 2));
+      background-color: $pink;
     }
   }
 }
@@ -258,75 +411,46 @@ p {
 div.main__graphic {
   /* image1 1 */
   @include position ();
-  width: 62%;
-  height: 65%;
+  @include main__graphic();
   left: 38%;
   top: 40%;
-  background-image: url("graphlady.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+  
+  
 }
 h1.main__title {
   @include position ();
+  @include main__title();
   left: 10%;
   top: 25%;
-  font-family: Helvetica;
-  font-size: 5vw;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 88px;
-  letter-spacing: 0em;
-  text-align: left;
   width: 40%;
-  color: $fontBlue;
-  padding: 15px;
+  font-size: 5vw;
+  line-height: 88px;
+  
+  
 }
 
 h1.main__content {
   /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
   @include position ();
+  @include main__content();
   width: 26%;
   left: 10%;
   top: 66%;
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: 500;
   font-size: 1.15vw;
-  line-height: 160%;
-  /* or 29px */
-  padding: 15px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background-size: contain;
-  overflow-wrap: break-word;
-  /* 1 */
-  color: $grey;
+ 
 }
 button.main__button {
   /* Rectangle 26 */
   @include position ();
+  @include main__button();
   width: 13%;
   height: 9%;
   left: 15%;
   top: 90%;
-  /* 3 */
-  background: $purple;
-  border-radius: 50px;
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: 800;
   font-size: 18px;
   line-height: 160%;
-  border-color: $white;
-  color: $white;
-  outline-style: none;
-  border-style: none;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  cursor: pointer;
-  &:hover{
-    background: $pink;
-  }
+  /* 3 */
+
 }
 h1.main__learn {
   /* Learn more */
@@ -350,128 +474,74 @@ h1.main__learn {
 }                                
 
 /* BANK */
-h1.bank__title {
-  /* We are a high-level data storage bank */
-  @include position ();
-  width: 35%;
-  left: 50%;
-  top: 140%;
-  /* SubHeadline */
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 3vw;
-  line-height: 130%;
-  /* or 52px */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: $navy;
-}
-h1.bank__content {
-  /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
-  /* The place to store various data that you can access at any time through the internet and where you can carry it. This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse. */
-  @include position ();
-  width: 35%;
-  left: 50%;
-  top: 165%;
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.25vw;
-  line-height: 160%;
-  /* or 29px */
-  /* 1 */
-  color: $grey;
-}
 div.bank__background {
   /* Rectangle 34 */
   @include position ();
+  border-radius: 50px;
   width: 80%;
   height: 80%;
   left: 10%;
   top: 130%;
   background: rgba(240, 99, 184, 0.15);
-  border-radius: 50px;
 }
 div.bank__image {
   /* image2  */
   @include position ();
+  @include bank__image();
   width: 50%;
-  height: 100%;
   left: 7%;
   top: 120%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url("busybody.png");
+  height: 100%;
+  
 }
+h1.bank__title {
+  /* We are a high-level data storage bank */
+  @include position ();
+  @include bank__title();
+  width: 35%;
+  left: 50%;
+  top: 140%;
+}
+h1.bank__content {
+  /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
+  /* The place to store various data that you can access at any time through the internet and where you can carry it. This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse. */
+  @include position ();
+  @include bank__content();
+  width: 35%;
+  left: 50%;
+  top: 165%;
+  font-size: 1.25vw;
+}
+
+
 
 /* FEATURES */
 h1.features__title {
   /* Features */
   @include position ();
+  @include features__title();
   left: 45%;
   top: 220%;
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 3vw;
-  line-height: 130%;
-  /* identical to box height, or 52px */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  color: $navy;
 }
 h1.features__content {
   /* Some of the features and advantages that we provide for those of you who store data in this Data Warehouse. */
   @include position ();
+  @include features__content();
   width: 40%;
   left: 30%;
   top: 240%;
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.25vw;
-  line-height: 160%;
-  /* or 29px */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  /* 1 */
-  color: $grey;
+  
+ 
 }
 
 /* SEARCH */
 h1.search__title {
   /* Search Data */
   @include position ();
+  @include search__title()
   left: 25%;
   top: 270%;
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2vw;
-  line-height: 130%;
-  /* or 31px */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: $navy;
+  
 }
 h1.search__content {
   /* Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time. */
@@ -694,23 +764,14 @@ div.security__background {
 /* TESTIMONIALS */
 div.testimonials__background {
   @include position ();
+  @include testimonials__background();
   width: 85%;
   height: 85%;
   left: 7.5%;
   top: 400%;
+  border-radius: 50px; 
   
-  background: #9d69e2;
-  border-radius: 50px;
  
- 
-  
-  color: $white;
-  
-
-  overflow-x: scroll;
-  
-  white-space: nowrap;
-
 }
 div.testimonials__cardcontainer {
   /* Rectangle 35 */
@@ -719,17 +780,23 @@ div.testimonials__cardcontainer {
   height: 90%;
   left: 10%;
   top: 425%;
-  
-  
-  
- 
-  
-  
-
   overflow-x: scroll;
-  
   white-space: nowrap;
-
+}
+div.card{
+    
+  display: inline-block;
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  -webkit-box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 20px #8a56db;
+  box-shadow: 5px 20px #8a56db;
+  
+  /* 1 */
+  color: $grey;
 }
 div.testimonials__carda {
   /* Rectangle 35 */
@@ -738,9 +805,6 @@ div.testimonials__carda {
   height: 50%;
   left: 18%;
   top: 425%;
-  
-  
-  
 }
 h1.testimonials__carda__content {
   /* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla. */
@@ -781,7 +845,7 @@ line-height: 130%;
 display: flex;
 align-items: center;
 
-color: white;
+color: $white;
 
 
 }
@@ -827,9 +891,9 @@ div.testimonials__carda__image {
   @include position ();
   width: 7%;
   height: 13%;
-  background-image: url("propic.png");
   top: 10%;
   left: 5%;
+  background-image: url("propic.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -983,6 +1047,7 @@ div.testimonials__arrowa {
   left: 75%;
   top: 472%;
   background-image: url("warrow.png");
+  
 }
 div.testimonials__arrowb {
   /* Polygon 1 */
@@ -993,6 +1058,8 @@ div.testimonials__arrowb {
   top: 472%;
   opacity: 20%;
   background-image: url("warrowb.png");
+  
+  
 }
 div.scrolling-wrapper {
   overflow-x: scroll;
@@ -1031,21 +1098,7 @@ div.cardnew {
    
     
   }
-  div.card{
-    
-    display: inline-block;
-    background-color: white;
-    width: 50%;
-    height: 50%;
-    -webkit-box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
-    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
-    border-radius: 20px;
-    -webkit-box-shadow: 5px 20px #8a56db;
-    box-shadow: 5px 20px #8a56db;
-    
-    /* 1 */
-    color: $grey;
-  }
+
 
   /* FOOTER */
 div.footer__line {
@@ -1099,10 +1152,10 @@ h1.footer__learn {
   /* Learn more */
   @include position ();
   left: 67.5%;
-  top: 535.5%;
+  top: 536%;
   font-family: Avenir;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 1.25vw;
   line-height: 160%;
   /* identical to box height, or 29px */
@@ -1174,32 +1227,56 @@ div.footer__buttonb {
   width: 14%;
   height: 8.5%;
   left: 80%;
-  top: 535%;
+  top: 175%;
   background: $white;
   -webkit-box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
           box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
 }
-h1.footer__demo {
+button.footer__demo {
   /* Request Demo */
   @include position ();
   left: 82%;
-  top: 535.5%;
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 1.25vw;
-  line-height: 160%;
-  /* identical to box height, or 26px */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.005em;
-  /* 2 */
-  color: $navy;
+  top: 535%;
+/* Rectangle 26 */
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+@include position ();
+left: 80%;
+
+height: 9%;
+background-color: $white;
+border-radius: 50px;
+background-repeat: no-repeat;
+background-size: contain;
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 1vw;
+line-height: 60%;
+padding-left: 4%;
+
+/* identical to box height, or 26px */
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+letter-spacing: 0.005em;
+/* 2 */
+color: $navy;
+border-color: $white;
+outline-style: none;
+border-style: none;
+-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+cursor: pointer;
+&:hover{
+background: $purple;
+color: $cloudBlue;
+}
+  
 }
 div.footer__arrow {
   /* Vector 74 */
@@ -1388,26 +1465,163 @@ body {
   background-color: $cloudBlue;
 }
 /* 10101010101010101010101010101010101010101010101iphone */
-@media only screen and (max-width: 800px) {
-  h1.header__request {
+@media only screen and (max-width: 400px) {
+  $arrow-size: .25em;
+  $arrow-border: 0.05em;
+  
+div.header__purple {
+    /* Rectangle 32 */
     @include position ();
-    left: 78%;
-    top: 4.25%;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: 800;
+    @include purple__dot();
+    width: 2.25%;
+    height: 1%;
+    left: 13%;
+    top: 3%;
+   
+  }
+div.header__pink {
+    /* Rectangle 33 */
+    @include position ();
+    @include pink__dot();
+    width: 2.25%;
+    height: 2%;
+    left: 16%;
+    top: 2%;
+    
+  }
+button.header__about {
+    /* About */
+    @include position ();
+    @include about__button();
+    left: 25%;
+    top: 2.5%;
     font-size: 1.5vw;
-    line-height: 160%;
-    /* identical to box height, or 26px */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    letter-spacing: 0.005em;
-    /* 2 */
-    color: $navy;
+  }
+button.header__help {
+    /* Help */
+    @include position ();
+    @include help__button();
+    left: 35%;
+    top: 2.5%;
+    
+  }
+button.header__features {
+    /* Features */
+    @include position ();
+    @include features__button();
+    left: 40%;
+    top: 2.5%;
+  }
+button.header__signup {
+    /* Signup */
+    @include position ();
+    @include signup__button();
+    left: 48%;
+    top: 2.5%;
+  }
+  
+  .link {
+    position: relative;
+    display: block;
+    padding: 1em ($arrow-size * 3) .5em .5em;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: $purple;
+    
+    
+    border-radius: 50px;
+    &:after, &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      transition: all 0.5s ease-in-out;
+      
+    }
+    &:before {
+      top: 50%;
+      width: $arrow-size;
+      height: $arrow-size;
+      transform-origin: 50% 50%;
+      transform:  translate(0, -($arrow-size / 2)) rotate(45deg);
+      box-shadow: inset -#{$arrow-border} $arrow-border 0 0 $purple;
+      border-radius: 0 $arrow-size*0.15 0 0;
+      
+    }
+    
+    &:after {
+      top: 50%;
+      right: 38%;
+      width: $arrow-size * 1.3;
+      height: $arrow-border;
+      transform:  translate(0, -($arrow-border / 2));
+      background-color: $purple;
+    }
+    &:hover {
+      &:before {
+        transform:  translate(0.5em, -($arrow-size / 2)) rotate(45deg);
+      }
+      &:after {
+        transform:  translate(0.5em, -($arrow-border / 2));
+      }
+    }
+  }
+  p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 2em;
+    color: #7f8c8d;
+  }
+  div.header__point {
+    /* Polygon 1 */
+    @include position ();
+    width: 20%;
+    height: 10%;
+    left: 70%;
+    top: 5%;
+    -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    background-image: url("point.png");
+    }
+  button.header__button {
+  /* Rectangle 26 */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  @include position ();
+  left: 80%;
+  top: 2%;
+  height: 2.5%;
+  background-color: $white;
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1vw;
+  line-height: 60%;
+  padding-left: 4%;
+  
+  /* identical to box height, or 26px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.005em;
+  /* 2 */
+  color: $navy;
+  border-color: $white;
+  outline-style: none;
+  border-style: none;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  &:hover{
+    background: $purple;
+    color: $cloudBlue;
+  }
   }
   div.header__button {
     /* Rectangle 26 */
@@ -1421,160 +1635,54 @@ body {
     background: $white;
     -webkit-box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
             box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-    border-radius: 50px;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  div.header__point {
-    /* Polygon 1 */
-    @include position ();
-    width: 20%;
-    height: 10%;
-    left: 70%;
-    top: 5%;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    background-image: url("point.png");
-  }
-  div.header__purple {
-    /* Rectangle 32 */
-    @include position ();
-    width: 2.5%;
-    height: 1%;
-    left: 10%;
-    top: 5%;
-    background: $purple;
-    border-radius: 15px;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  div.header__pink {
-    /* Rectangle 33 */
-    @include position ();
-    width: 2.5%;
-    height: 2%;
-    left: 13%;
-    top: 4%;
-    background: #F063B8;
-    border-radius: 20px;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  h1.header__about {
-    /* About */
-    @include position ();
-    left: 25%;
-    top: 4%;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 2vw;
-    line-height: 160%;
-    /* or 26px */
-    /* 2 */
-    color: $navy;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  h1.header__help {
-    /* Help */
-    @include position ();
-    left: 35%;
-    top: 4.3%;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.5vw;
-    line-height: 160%;
-    /* identical to box height, or 26px */
-    /* 1 */
-    color: $grey;
-  }
-  h1.header__features {
-    /* Features */
-    @include position ();
-    left: 40%;
-    top: 4.3%;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.5vw;
-    line-height: 160%;
-    /* identical to box height, or 26px */
-    /* 1 */
-    color: $grey;
-  }
-  h1.header__signup {
-    /* Signup */
-    @include position ();
-    left: 48%;
-    top: 4.3%;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.5vw;
-    line-height: 160%;
-    /* identical to box height, or 26px */
-    /* 1 */
-    color: $grey;
-  }
+            border-radius: 50px;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+
+ 
+  
+  
   /* MAIN */
+  div.main__graphic {
+    /* image1 1 */
+    @include position ();
+    @include main__graphic();
+    left: 48%;
+    top: 15%;
+  }
   h1.main__title {
     @include position ();
-    left: 6%;
-    top: 8%;
-    font-family: Helvetica;
-    font-size: 7.3vw;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
+    @include main__title();
+    left: 9%;
+    top: 5%;
     width: 60%;
-    color: $fontBlue;
-    padding: 15px;
+    font-size: 7.3vw;
+    line-height: 30px;
+    
   }
   h1.main__content {
     /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
     @include position ();
+    @include main__content();
     width: 48%;
-    left: 6%;
-    top: 20%;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: 500;
+    left: 9%;
+    top: 16.5%;
     font-size: 1.7vw;
-    line-height: 160%;
-    /* or 29px */
-    padding: 15px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    background-size: contain;
-    overflow-wrap: break-word;
-    /* 1 */
-    color: $grey;
   }
-  div.main__graphic {
-    /* image1 1 */
-    @include position ();
-    width: 62%;
-    height: 65%;
-    left: 48%;
-    top: 19%;
-    background-image: url("graphlady.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  div.main__button {
+  
+  button.main__button {
     /* Rectangle 26 */
     @include position ();
+    @include main__button();
     width: 15%;
     height: 2.5%;
-    left: 12%;
-    top: 30%;
+    left: 14%;
+    top: 26%;
+    font-size: 1.5vw;
+    line-height: 160%;
     /* 3 */
-    background: $purple;
-    border-radius: 50px;
+    
   }
   h1.main__learn {
     /* Learn more */
@@ -1600,103 +1708,57 @@ body {
   div.bank__background {
     /* Rectangle 34 */
     @include position ();
+    border-radius: 25px;
     width: 90%;
     height: 23%;
     left: 10%;
-    top: 40%;
+    top: 35%;
     background: rgba(240, 99, 184, 0.15);
-    border-radius: 25px;
   }
   div.bank__image {
     /* image2  */
     @include position ();
+    @include bank__image();
     width: 65%;
-    height: 100%;
     left: 3%;
-    top: 36%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url("busybody.png");
+    top: 31%;
+    height: 100%;
+  }
+  h1.bank__title {
+    /* We are a high-level data storage bank */
+    @include position ();
+    @include bank__title();
+    width: 43%;
+    left: 55%;
+    top: 39%;
   }
   h1.bank__content {
     /* Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. */
     /* The place to store various data that you can access at any time through the internet and where you can carry it. This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse. */
     @include position ();
+    @include bank__content();
     width: 40%;
     left: 55%;
-    top: 49%;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: 500;
+    top: 44%;
     font-size: 1.75vw;
-    line-height: 160%;
-    /* or 29px */
-    /* 1 */
-    color: $grey;
-  }
-  h1.bank__title {
-    /* We are a high-level data storage bank */
-    @include position ();
-    width: 43%;
-    left: 55%;
-    top: 43%;
-    /* SubHeadline */
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 3.5vw;
-    line-height: 130%;
-    /* or 52px */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    color: $navy;
+    
   }
   /* FEATURE */
   h1.features__title {
     /* Features */
     @include position ();
+    @include features__title();
     left: 50%;
-    top: 70%;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 3vw;
-    line-height: 130%;
-    /* identical to box height, or 52px */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-    color: $navy;
+    top: 65%;
+    
   }
   h1.features__content {
     /* Some of the features and advantages that we provide for those of you who store data in this Data Warehouse. */
     @include position ();
+    @include features__content();
     width: 40%;
     left: 35%;
-    top: 75%;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.25vw;
-    line-height: 160%;
-    /* or 29px */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-    /* 1 */
-    color: $grey;
+    top: 70%;
   }
   /* SEARCH */
   div.search__background {
@@ -1714,21 +1776,10 @@ body {
   h1.search__title {
     /* Search Data */
     @include position ();
-    left: 10%;
+    @include search__title();
+    left: 27%;
     top: 83%;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2vw;
-    line-height: 130%;
-    /* or 31px */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    color: $navy;
+   
   }
   h1.search__content {
     /* Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time. */
@@ -1932,37 +1983,79 @@ body {
     border-radius: 20px;
   }
   /* TESTIMONIALS */
+  div.title__mover {
+    @include position ();
+    top: 127%;
+    padding-left: 15%;
+  
+  }
+  div.content__mover {
+    @include position ();
+    top: 43%;
+    padding-left: 20%;
+    line-height: 50%;
+    
+  }
+  div.name__mover {
+    @include position ();
+    top: 17%;
+    padding-left: 15%;
+  }
+  div.site__mover {
+    @include position ();
+    top: 30%;
+    padding-left: 57%;
+  }
   div.testimonials__background {
     /* Rectangle 35 */
     @include position ();
+    @include testimonials__background();
     width: 90%;
     height: 25%;
     left: 10%;
     top: 125%;
-    /* 4 */
-    background: #9d69e2;
     border-radius: 20px;
+    /* 4 */
+  }
+  div.testimonials__cardcontainer {
+    /* Rectangle 35 */
+    @include position ();
+    width: 80%;
+    height: 15%;
+    left: 15%;
+    top: 132%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  div.card{
+    
+    display: inline-block;
+    background-color: white;
+    width: 50%;
+    height: 80%;
+    -webkit-box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 20px #8a56db;
+    box-shadow: 5px 20px #8a56db;
+    
+    /* 1 */
+    color: $grey;
   }
   h1.testimonials__title {
     /* Testimonials */
     @include position ();
-    width: 10%;
-    height: 10%;
-    left: 18%;
-    top: 125%;
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 12px;
     line-height: 130%;
     /* identical to box height, or 52px */
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
+    
     color: $white;
+    
   }
   div.testimonials__carda {
     /* Rectangle 35 */
@@ -1971,25 +2064,41 @@ body {
     height: 10%;
     left: 18%;
     top: 135%;
-    background: $white;
-    -webkit-box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
-            box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
-    border-radius: 20px;
-    -webkit-box-shadow: 5px 20px #8a56db;
-            box-shadow: 5px 20px #8a56db;
+   
   }
   h1.testimonials__carda__content {
     /* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla. */
   
    
+    @include position ();
+    width: 26.5%;
+    height: 1%;
+    left: 30%;
+    top: 15%;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
     font-size: 1.25vw;
-    line-height: 180%;
+    line-height: 1%;
     /* or 32px */
     /* 1 */
     color: $grey;
+  }
+  h1.testimonials__cardb__content2 {
+    /* Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor */
+    @include position ();
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    line-height: 10%;
+    /* or 32px */
+    /* 1 */
+    color: $pink;
+    &:hover {
+      color: $grey;
+    }
+    
   }
   h1.testimonials__carda__name {
     /* John Fang */
@@ -1997,7 +2106,7 @@ body {
     width: 10%;
     height: 5%;
     left: 27%;
-    top: 135%;
+    top: 15%;
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
@@ -2018,32 +2127,24 @@ body {
     /* wordfaang.com */
     @include position ();
     width: 10%;
-    height: 5%;
+    height: 30%;
     left: 27%;
-    top: 136%;
+    top: 15%;
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 1vw;
+    font-size: .8vw;
     line-height: 160%;
-    /* or 22px */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    letter-spacing: 0.01em;
-    /* 3 */
+  
     color: $purple;
   }
   div.testimonials__carda__image {
     /* Ellipse 76 */
     @include position ();
-    width: 6.3%;
-    height: 13%;
-    left: 20%;
-    top: 137%;
+    width: 18%;
+    height: 18%;
+    left: 5%;
+    top: 18%;
     background-image: url("propic.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -2067,10 +2168,10 @@ body {
   div.testimonials__cardb__image {
     /* Ellipse 76 */
     @include position ();
-    width: 6.3%;
-    height: 13%;
-    left: 68%;
-    top: 137%;
+    width: 18%;
+    height: 18%;
+    left: 56%;
+    top: 18%;
     background-image: url("propicb.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -2081,15 +2182,14 @@ body {
     width: 13%;
     height: 50%;
     left: 77%;
-    top: 139%;
     font-family: Avenir;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.25vw;
-    line-height: 180%;
-    /* or 32px */
-    /* 1 */
-    color: $grey;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+  line-height: 10%;
+  /* or 32px */
+  /* 1 */
+  color: $grey;
   }
   h1.testimonials__cardb__site {
     /* UX Engineer */
@@ -2181,21 +2281,23 @@ body {
   div.testimonials__arrowa {
     /* Vector 74 */
     @include position ();
-    width: 25%;
+    width: 10%;
     height: 10%;
-    left: 60%;
-    top: 142%;
+    left: 65%;
+    top: 145%;
     background-image: url("warrow.png");
+    background-size: 45px;
   }
   div.testimonials__arrowb {
     /* Polygon 1 */
     @include position ();
-    width: 25%;
+    width: 12%;
     height: 10%;
     left: 75%;
-    top: 142%;
+    top: 145%;
     opacity: 20%;
     background-image: url("warrowb.png");
+    background-size: 45px;
   }
   /* FOOTER */
   div.footer__line {
@@ -2241,16 +2343,53 @@ body {
     /* 1 */
     color: $grey;
   }
-  div.footer__buttona {
+  button.footer__buttona {
     /* Rectangle 26 */
-    @include position ();
-    width: 12%;
-    height: 2%;
-    left: 65%;
-    top: 168%;
-    /* 4 */
-    background: #F063B8;
-    border-radius: 50px;
+    
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  @include position ();
+  
+  top: 165%;
+  left:60%;
+  background-color: $pink;
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.25vw;
+  line-height: 160%;
+  padding: 10px 15px;
+  /* identical to box height, or 26px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+    align-items: center;
+  letter-spacing: 0.005em;
+  /* 2 */
+  color: $navy;
+  border-color: $pink;
+  outline-style: none;
+  border-style: none;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  &:hover{
+  background: $purple;
+  }
+
+    
+    /* identical to box height, or 26px */
+    
+    
+    letter-spacing: 0.005em;
+    /* 2 */
+    color: $navy;
+    
   }
   h1.footer__learn {
     /* Learn more */
@@ -2262,6 +2401,7 @@ body {
     font-weight: 900;
     font-size: 1.25vw;
     line-height: 160%;
+    color: $white;
     /* identical to box height, or 29px */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2270,7 +2410,6 @@ body {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
-    color: $white;
   }
   div.footer__buttonb {
     /* Rectangle 26 */
@@ -2284,11 +2423,12 @@ body {
             box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     border-radius: 50px;
   }
-  h1.footer__demo {
+  button.footer__demo {
     /* Request Demo */
     @include position ();
     left: 82%;
-    top: 168.1%;
+    top: 165%;
+    height: 3.5%;
     font-family: Avenir;
     font-style: normal;
     font-weight: 900;
@@ -2411,7 +2551,7 @@ body {
     @include position ();
     width: 13%;
     left: 16%;
-    top: 180%;
+    top: 182%;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
